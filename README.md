@@ -46,7 +46,7 @@ Bu adımlar, Flask uygulamanızı lokal ortamda nasıl çalıştıracağınızı
    git clone https://github.com/kullanıcı_adı/proje_adı.git
    cd proje_adı
 
-1. **Gerekli Kütüphaneleri Yükleyin:**
+2. **Gerekli Kütüphaneleri Yükleyin:**
 Gerekli Python kütüphanelerini yüklemek için bir virtualenv oluşturup ardından bağımlılıkları yükleyin:
 
    ```bash
@@ -54,5 +54,25 @@ Gerekli Python kütüphanelerini yüklemek için bir virtualenv oluşturup ardı
    source venv/bin/activate  # Windows kullanıyorsanız: venv\Scripts\activate
    pip install -r requirements.txt
 
+3. **Ortam Değişkenlerini Ayarlayın:**
+ T3 AI API anahtarınızı ve Google Geocoding API anahtarınızı ortam değişkeni olarak ayarlayın:
+
+   ```bash
+   export T3AI_API_KEY='YOUR_T3AI_API_KEY'
+   export GOOGLE_GEOCODE_API_KEY='YOUR_GOOGLE_GEOCODE_API_KEY'
+Windows için:
+   ```bash
+   set T3AI_API_KEY=YOUR_T3AI_API_KEY
+   set GOOGLE_GEOCODE_API_KEY=YOUR_GOOGLE_GEOCODE_API_KEY
+
+4. **Uygulamayı Çalıştırın:**
+Flask uygulamanızı başlatın:
+
+   ```bash
+    python app.py
+5. Uygulamayı Tarayıcıda Açın:
+Uygulama çalıştığında, tarayıcınızdan aşağıdaki URL'yi açabilirsiniz:
+    ```bash
+http://127.0.0.1:5000
 
 
