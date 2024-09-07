@@ -17,3 +17,9 @@ TourMate, sesli komutlar ve GPS verileri kullanarak turistlere kişiselleştiril
 4. **SpeechRecognition Kütüphanesi**: Kullanıcıların sesli komutlarını algılar ve işleyerek yanıt verir.
 5. **OpenWeather API**: Hava durumu bilgilerini kullanıcıya sağlamak için kullanılır.
 
+## Takım Adı: Takım ID
+- 👤 Bengisu ATLI
+- 👤 Deniz TAŞ
+
+## Uygulamadan Ekran Görüntüleri
+
