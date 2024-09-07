@@ -65,8 +65,8 @@ Gerekli Python kütüphanelerini yüklemek için bir virtualenv oluşturup ardı
 Windows için:
 
    ```bash
-   set T3AI_API_KEY=YOUR_T3AI_API_KEY
-   set GOOGLE_GEOCODE_API_KEY=YOUR_GOOGLE_GEOCODE_API_KEY
+   set T3AI_API_KEY='YOUR_T3AI_API_KEY'
+   set GOOGLE_GEOCODE_API_KEY='YOUR_GOOGLE_GEOCODE_API_KEY'
 
 
 4. **Uygulamayı Çalıştırın:**
