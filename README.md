@@ -23,3 +23,6 @@ TourMate, sesli komutlar ve GPS verileri kullanarak turistlere kişiselleştiril
 
 ## Uygulamadan Ekran Görüntüleri
 
+![Açıklama metni]("C:\Users\PC\Downloads\WhatsApp Image 2024-09-07 at 11.23.57.jpeg")
+
+
