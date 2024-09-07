@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TourMate - Chatbot</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sol panel (Mikrofon butonu ve reset) -->
+      <div class="left-panel">
+        <img class="logo" src="../static/logo.jpg" alt="logo" />
+        <h2 class="logo-title">TourMate</h2>
+        <div class="mic-button" id="mic-button">
+          <i class="bx bxs-microphone"></i>
+        </div>
+        <!-- Mikrofon butonu arka plan olarak mikrofon ikonunu kullanacak -->
+      </div>
+
+      <!-- Sağ panel (Soru ve cevaplar) -->
+      <div class="right-panel">
+        <div class="header">TourMate</div>
+
+        <div class="chat-box" id="chat-box">
+          <!-- Örnek mesajlar -->
+          <div class="bot-response">Merhaba, nasıl yardımcı olabilirim?</div>
+        </div>
+
+        <!-- Soru girişi ve gönderme butonu -->
+        <div class="input-area">
+          <input type="text" id="user-input" placeholder="Bir soru sor..." />
+          <button id="send-button">Gönder</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const sendButton = document.getElementById('send-button');
+      const userInput = document.getElementById('user-input');
+      const chatBox = document.getElementById('chat-box');
+      const micButton = document.getElementById('mic-button');
+
+      // SpeechRecognition API kullanımı (Web Speech API)
+      const SpeechRecognition =
+        window.SpeechRecognition || window.webkitSpeechRecognition;
+      const recognition = new SpeechRecognition();
+      recognition.lang = 'tr-TR'; // Türkçe dil ayarı
+      recognition.interimResults = false; // Sadece son sonucu almak için
+
+      // Mikrofona tıklayınca dinlemeye başla
+      micButton.addEventListener('click', () => {
+        recognition.start(); // Dinleme başlasın
+        micButton.classList.add('listening'); // Animasyonu başlat
+      });
+
+      // Ses algılanırsa input alanına yaz ve gönderme işlemini tetikle
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript; // Sesli girdiyi al
+        userInput.value = transcript; // Alınan sesli girdiyi input alanına yaz
+
+        // "Gönder" butonunu programlı olarak tetikle
+        sendButton.click();
+      };
+
+      // Dinleme bittiğinde animasyonu durdur
+      recognition.onspeechend = () => {
+        recognition.stop(); // Konuşma bitince mikrofonu durdur
+        micButton.classList.remove('listening'); // Animasyonu kaldır
+      };
+
+      recognition.onerror = (event) => {
+        console.error('Speech recognition error detected: ' + event.error);
+        micButton.classList.remove('listening'); // Hata durumunda animasyonu kaldır
+      };
+
+      // Kullanıcı mesajını ekrana yazdıran fonksiyon
+      function addUserMessage(message) {
+        const userMessageDiv = document.createElement('div');
+        userMessageDiv.className = 'user-input';
+        userMessageDiv.textContent = message;
+        chatBox.appendChild(userMessageDiv);
+      }
+
+      function addBotResponse(message, maps_url = null) {
+        const botResponseDiv = document.createElement('div');
+        botResponseDiv.className = 'bot-response';
+        botResponseDiv.textContent = message;
+
+        // Eğer bir maps linki varsa, onu ekleyelim
+        if (maps_url) {
+          const link = document.createElement('a');
+          link.href = maps_url;
+          link.target = '_blank';
+          link.textContent = 'Haritaya buradan ulaşabilirsiniz';
+          link.style.color = 'white';
+          link.style.textDecoration = 'underline';
+          botResponseDiv.appendChild(document.createElement('br'));
+          botResponseDiv.appendChild(document.createElement('br'));
+          botResponseDiv.appendChild(link);
+        }
+
+        // Feedback butonlarını ekleyelim
+        const feedbackDiv = document.createElement('div');
+        feedbackDiv.className = 'feedback-buttons-container';
+        feedbackDiv.innerHTML = `
+        <button class="like-button">👍</button>
+        <button class="dislike-button">👎</button>
+      `;
+
+        botResponseDiv.appendChild(feedbackDiv);
+        chatBox.appendChild(botResponseDiv);
+
+        // Otomatik olarak chat kutusunu en sona kaydır
+        chatBox.scrollTop = chatBox.scrollHeight;
+
+        // Bot cevabını sesli olarak oku
+        speakText(message);
+        // Butonlara olay dinleyicilerini ekleyelim
+        feedbackDiv
+          .querySelector('.like-button')
+          .addEventListener('click', () => {
+            sendFeedback('like', message);
+          });
+
+        feedbackDiv
+          .querySelector('.dislike-button')
+          .addEventListener('click', () => {
+            const feedbackText = prompt(
+              'Bu cevabı neden beğenmediniz? Önerileriniz var mı?'
+            );
+            const preferredResponse = prompt('Nasıl bir yanıt beklerdiniz?');
+            sendFeedback('dislike', message, feedbackText, preferredResponse);
+          });
+      }
+
+      // Metni sesli okuma fonksiyonu
+      function speakText(text) {
+        const utterance = new SpeechSynthesisUtterance(text); // Okunacak metni ayarla
+        utterance.lang = 'tr-TR'; // Dil ayarı Türkçe
+        window.speechSynthesis.speak(utterance); // Metni sesli olarak oku
+      }
+
+      // Kullanıcının sorusunu API'ye gönderme ve yanıt alma
+      async function sendQuestionToAPI(question) {
+        const response = await fetch('/ask', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ question: question }),
+        });
+
+        const result = await response.json();
+        console.log(result);
+        if (result.answer) {
+          // Eğer bir maps linki varsa, onu da ekleyelim
+          addBotResponse(result.answer, result.maps_url);
+        } else {
+          addBotResponse('Bir hata oluştu.');
+        }
+      }
+
+      // Gönder butonuna tıklama olayı
+      sendButton.addEventListener('click', async () => {
+        const userMessage = userInput.value.trim();
+        if (userMessage) {
+          // Kullanıcı mesajını ekranda göster
+          addUserMessage(userMessage);
+
+          // API'ye soruyu gönder ve cevabı al
+          await sendQuestionToAPI(userMessage);
+
+          // Giriş kutusunu temizle
+          userInput.value = '';
+        }
+      });
+
+      // Konum izni isteme ve gönderme fonksiyonu
+      function requestLocation() {
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(
+            (position) => {
+              const latitude = position.coords.latitude;
+              const longitude = position.coords.longitude;
+
+              // Sunucuya konumu POST isteğiyle gönder
+              fetch('/save_location', {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ lat: latitude, lng: longitude }),
+              })
+                .then((response) => response.json())
+                .then((data) => {
+                  if (data.status === 'success') {
+                    console.log(
+                      'Konumunuz kaydedildi, şimdi rota çizebilirsiniz.'
+                    );
+                  } else {
+                    addBotResponse('Konum kaydedilemedi.');
+                  }
+                })
+                .catch((error) => {
+                  addBotResponse('Bir hata oluştu.');
+                  console.error('Error:', error);
+                });
+            },
+            (error) => {
+              switch (error.code) {
+                case error.PERMISSION_DENIED:
+                  addBotResponse('Kullanıcı konum iznini reddetti.');
+                  break;
+                case error.POSITION_UNAVAILABLE:
+                  addBotResponse('Konum bilgisi mevcut değil.');
+                  break;
+                case error.TIMEOUT:
+                  addBotResponse('Konum alma isteği zaman aşımına uğradı.');
+                  break;
+                case error.UNKNOWN_ERROR:
+                  addBotResponse('Bilinmeyen bir hata oluştu.');
+                  break;
+              }
+            }
+          );
+        } else {
+          addBotResponse('Tarayıcınız bu özelliği desteklemiyor.');
+        }
+      }
+
+      // Sayfa yüklendiğinde konum izni isteme
+      window.onload = () => {
+        requestLocation();
+      };
+
+      function sendFeedback(
+        rating,
+        responseMessage,
+        feedbackText = '',
+        preferredResponse = ''
+      ) {
+        const userFeedback = {
+          rating: rating,
+          feedback_text: feedbackText,
+          preferred_response: preferredResponse,
+          location: location,
+        };
+
+        fetch('/submit_feedback', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(userFeedback),
+        })
+          .then((response) => response.json())
+          .then((result) => {
+            console.log('Başarıyla gönderildi:', result);
+          })
+          .catch((error) => {
+            console.error('Hata:', error);
+          });
+      }
+    </script>
+  </body>
+</html>

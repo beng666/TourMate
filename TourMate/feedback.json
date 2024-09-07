@@ -1,0 +1,22 @@
+[
+    {
+        "interaction_id": "6ac715c5-70a0-4a6e-ac2e-e9122b0b2508",
+        "user_id": "anonim",
+        "timestamp": "2024-09-06T18:16:00.375100",
+        "user_feedback": {
+            "rating": "like",
+            "feedback_text": "",
+            "preferred_response": ""
+        }
+    },
+    {
+        "interaction_id": "12dc0dcb-49b3-4ef2-a2f0-4fa6619b0b70",
+        "user_id": "anonim",
+        "timestamp": "2024-09-06T18:16:24.822020",
+        "user_feedback": {
+            "rating": "dislike",
+            "feedback_text": "123",
+            "preferred_response": "321"
+        }
+    }
+]

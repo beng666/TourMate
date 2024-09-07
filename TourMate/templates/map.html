@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TourMate - Harita</title>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style2.css') }}"
+    />
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <footer>
+      <div id="places-list-container">
+        <button class="slider-button left" onclick="slide(-1)">‹</button>
+        <ul id="places-list">
+          <!-- Dinamik olarak buraya yerler eklenecek -->
+        </ul>
+        <button class="slider-button right" onclick="slide(1)">›</button>
+      </div>
+      <p>Yakındaki ilginç yerler</p>
+    </footer>
+
+    <script>
+      let map, directionsService, directionsRenderer, currentRoute;
+      let cities = [];
+      let placesCoordinates = {};
+
+      async function fetchCities() {
+        try {
+          const response = await fetch('/static/cities.json'); // JSON dosyasının doğru yolunu belirleyin
+          if (!response.ok) {
+            throw new Error('Ağ hatası: ' + response.statusText);
+          }
+          const data = await response.json();
+          cities = data.cities;
+          populatePlacesCoordinates();
+          displayCities();
+        } catch (error) {
+          console.error('JSON dosyasını alırken bir hata oluştu:', error);
+        }
+      }
+
+      function populatePlacesCoordinates() {
+        placesCoordinates = {};
+        cities.forEach((city) => {
+          city.famous_places.forEach((place) => {
+            placesCoordinates[place.name] = { lat: place.lat, lng: place.lng };
+          });
+        });
+      }
+
+      function displayCities() {
+        const footerList = document.getElementById('places-list');
+        footerList.innerHTML = '';
+
+        const destinationCity = getUrlParameter('city');
+        console.log(destinationCity);
+
+        if (!destinationCity) {
+          console.error("Şehir parametresi URL'de bulunamadı.");
+          return;
+        }
+
+        const city = cities.find((city) => city.city_name === destinationCity);
+
+        if (city) {
+          city.famous_places.forEach((place) => {
+            const listItem = document.createElement('li');
+            const link = document.createElement('a');
+            link.href = '#';
+            link.textContent = place.name;
+            link.onclick = () => calculateRoute(place);
+            listItem.appendChild(link);
+            footerList.appendChild(listItem);
+          });
+        } else {
+          console.error('Şehir bulunamadı:', destinationCity);
+        }
+
+        updateSliderButtons();
+        showPlaces(); // İlk 3 yeri göster
+      }
+
+      function getUrlParameter(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name);
+      }
+
+      // Test et
+      console.log('City Parameter:', getUrlParameter('city'));
+
+      const urlParams = new URLSearchParams(window.location.search);
+      console.log('All URL Parameters:', Array.from(urlParams.entries()));
+
+      console.log('URL Search Params:', window.location.search);
+
+      function initMap() {
+        const USER_LAT = parseFloat('{{ user_lat }}');
+        const USER_LNG = parseFloat('{{ user_lng }}');
+
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: { lat: USER_LAT, lng: USER_LNG },
+          zoom: 14,
+        });
+
+        directionsService = new google.maps.DirectionsService();
+        directionsRenderer = new google.maps.DirectionsRenderer();
+        directionsRenderer.setMap(map);
+
+        fetchCities(); // JSON verilerini al
+
+        const destinationLat = parseFloat(getUrlParameter('destination_lat'));
+        const destinationLng = parseFloat(getUrlParameter('destination_lng'));
+
+        if (!isNaN(destinationLat) && !isNaN(destinationLng)) {
+          calculateRouteByCoordinates(destinationLat, destinationLng); // İlk rota URL'deki koordinatlarla başlasın
+        }
+      }
+
+      function calculateRouteByCoordinates(lat, lng) {
+        if (directionsRenderer) {
+          directionsRenderer.setMap(null); // Remove the old route from the map
+        }
+
+        directionsRenderer = new google.maps.DirectionsRenderer();
+        directionsRenderer.setMap(map);
+
+        const routeRequest = {
+          origin: {
+            lat: parseFloat('{{ user_lat }}'),
+            lng: parseFloat('{{ user_lng }}'),
+          },
+          destination: { lat: lat, lng: lng },
+          travelMode: 'WALKING',
+        };
+
+        directionsService.route(routeRequest, (response, status) => {
+          if (status === 'OK') {
+            directionsRenderer.setDirections(response); // Show the new route
+            currentRoute = directionsRenderer; // Store the current route
+          } else {
+            console.error('Rota isteği başarısız: ', status);
+          }
+        });
+      }
+
+      function calculateRoute(place) {
+        const USER_LAT = parseFloat('{{ user_lat }}');
+        const USER_LNG = parseFloat('{{ user_lng }}');
+
+        const destination = placesCoordinates[place.name];
+
+        if (destination) {
+          if (directionsRenderer) {
+            directionsRenderer.setMap(null); // Remove the old route from the map
+          }
+
+          directionsRenderer = new google.maps.DirectionsRenderer();
+          directionsRenderer.setMap(map);
+
+          const routeRequest = {
+            origin: { lat: USER_LAT, lng: USER_LNG },
+            destination: destination,
+            travelMode: 'WALKING',
+          };
+
+          directionsService.route(routeRequest, (response, status) => {
+            if (status === 'OK') {
+              directionsRenderer.setDirections(response); // Show the new route
+              currentRoute = directionsRenderer; // Store the current route
+            } else {
+              console.error('Rota isteği başarısız: ', status);
+            }
+          });
+        }
+      }
+
+      let currentIndex = 0;
+
+      function showPlaces() {
+        const placesListItems = document.querySelectorAll('#places-list li');
+        placesListItems.forEach((item, index) => {
+          if (index >= currentIndex && index < currentIndex + 5) {
+            item.style.display = 'inline-block'; // Show 5 items
+          } else {
+            item.style.display = 'none'; // Hide the rest
+          }
+        });
+
+        updateSliderButtons();
+      }
+
+      function slide(direction) {
+        const itemsVisible = 5;
+        const totalItems =
+          document.getElementById('places-list').children.length;
+        const maxIndex = totalItems - itemsVisible;
+
+        currentIndex = Math.min(
+          Math.max(currentIndex + direction, 0),
+          maxIndex
+        );
+        showPlaces(); // Update visible items
+      }
+
+      function updateSliderButtons() {
+        const totalItems =
+          document.getElementById('places-list').children.length;
+        const maxIndex = totalItems - 5;
+
+        document.querySelector('.slider-button.left').disabled =
+          currentIndex === 0;
+        document.querySelector('.slider-button.right').disabled =
+          currentIndex === maxIndex;
+      }
+    </script>
+  </body>
+</html>

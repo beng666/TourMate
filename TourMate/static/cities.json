@@ -1,0 +1,1411 @@
+{
+  "cities": [
+    {
+      "city_name": "Adana",
+      "famous_places": [
+        { "name": "Taşköprü", "lat": 37.0017, "lng": 35.3213 },
+        { "name": "Sabancı Merkez Camii", "lat": 37.0084, "lng": 35.315 },
+        { "name": "Büyük Saat Kulesi", "lat": 37.0008, "lng": 35.322 },
+        { "name": "Adana Arkeoloji Müzesi", "lat": 37.0085, "lng": 35.3269 },
+        { "name": "Seyhan Baraj Gölü", "lat": 37.0394, "lng": 35.2834 },
+        { "name": "Kapıkaya Kanyonu", "lat": 37.4477, "lng": 35.8424 },
+        { "name": "Yumurtalık Plajı", "lat": 36.7767, "lng": 35.7979 },
+        { "name": "Varda Köprüsü", "lat": 37.2601, "lng": 34.9274 },
+        { "name": "Adana Merkez Parkı", "lat": 37.0036, "lng": 35.3284 },
+        { "name": "Kazancılar Çarşısı", "lat": 37.0005, "lng": 35.3218 }
+      ]
+    },
+    {
+      "city_name": "Adıyaman",
+      "famous_places": [
+        { "name": "Nemrut Dağı", "lat": 37.9806, "lng": 38.7422 },
+        { "name": "Cendere Köprüsü", "lat": 37.9813, "lng": 38.5487 },
+        { "name": "Karakuş Tümülüsü", "lat": 37.9057, "lng": 38.6086 },
+        { "name": "Adıyaman Müzesi", "lat": 37.7654, "lng": 38.2777 },
+        { "name": "Perre Antik Kenti", "lat": 37.7915, "lng": 38.2717 },
+        { "name": "Arsemia Antik Kenti", "lat": 37.8919, "lng": 38.6159 },
+        { "name": "Kahta Kalesi", "lat": 37.7804, "lng": 38.6116 },
+        { "name": "Sofraz Tümülüsü", "lat": 37.9187, "lng": 38.5565 },
+        { "name": "Adıyaman Kalesi", "lat": 37.7629, "lng": 38.2777 },
+        { "name": "Eski Kahta Kalesi", "lat": 37.8847, "lng": 38.6145 }
+      ]
+    },
+    {
+      "city_name": "Afyon",
+      "famous_places": [
+        { "name": "Afyonkarahisar Kalesi", "lat": 38.7626, "lng": 30.5385 },
+        { "name": "Gazlıgöl Kaplıcaları", "lat": 38.8123, "lng": 30.5622 },
+        { "name": "Zafer Müzesi", "lat": 38.7629, "lng": 30.5424 },
+        { "name": "Frig Vadisi", "lat": 39.0395, "lng": 30.1708 },
+        { "name": "Afyonkarahisar Müzesi", "lat": 38.7659, "lng": 30.5378 },
+        { "name": "Başkomutanlık Milli Parkı", "lat": 38.5485, "lng": 30.2171 },
+        { "name": "İscehisar Peri Bacaları", "lat": 38.8252, "lng": 30.7529 },
+        { "name": "Kocatepe Anıtı", "lat": 38.7064, "lng": 30.5559 },
+        { "name": "Ayazini Kilisesi", "lat": 38.8755, "lng": 30.5398 },
+        { "name": "Afyon Termal Tesisleri", "lat": 38.7587, "lng": 30.5261 }
+      ]
+    },
+    {
+      "city_name": "Ağrı",
+      "famous_places": [
+        { "name": "İshak Paşa Sarayı", "lat": 39.5137, "lng": 44.1083 },
+        { "name": "Ağrı Dağı", "lat": 39.7024, "lng": 44.2964 },
+        { "name": "Doğubeyazıt Kalesi", "lat": 39.5541, "lng": 44.0937 },
+        { "name": "Buz Mağaraları", "lat": 39.6515, "lng": 44.2885 },
+        { "name": "Nuh'un Gemisi Anıtı", "lat": 39.7427, "lng": 44.3011 },
+        { "name": "Balık Gölü", "lat": 39.395, "lng": 43.6616 },
+        { "name": "Şoşik Kalesi", "lat": 39.7569, "lng": 44.3077 },
+        { "name": "Ahmed-i Hani Türbesi", "lat": 39.6556, "lng": 44.0947 },
+        { "name": "Diyadin Kaplıcaları", "lat": 39.5411, "lng": 43.6672 },
+        { "name": "Meya Mağaraları", "lat": 39.4991, "lng": 44.0824 }
+      ]
+    },
+    {
+      "city_name": "Amasya",
+      "famous_places": [
+        { "name": "Kral Kaya Mezarları", "lat": 40.6539, "lng": 35.8362 },
+        { "name": "Amasya Kalesi", "lat": 40.6554, "lng": 35.8365 },
+        { "name": "Ferhat Su Kanalı", "lat": 40.6551, "lng": 35.8301 },
+        { "name": "Hazeranlar Konağı", "lat": 40.656, "lng": 35.836 },
+        { "name": "II. Bayezid Külliyesi", "lat": 40.6562, "lng": 35.8378 },
+        { "name": "Yedi Kuğular Kuş Cenneti", "lat": 40.65, "lng": 35.85 },
+        { "name": "Boraboy Gölü", "lat": 40.6037, "lng": 35.7927 },
+        { "name": "Amasya Arkeoloji Müzesi", "lat": 40.6571, "lng": 35.8352 },
+        {
+          "name": "Sabuncuoğlu Tıp ve Cerrahi Müzesi",
+          "lat": 40.655,
+          "lng": 35.8384
+        },
+        { "name": "Şehzadeler Müzesi", "lat": 40.6565, "lng": 35.8371 }
+      ]
+    },
+    {
+      "city_name": "Ankara",
+      "famous_places": [
+        { "name": "Anıtkabir", "lat": 39.9255, "lng": 32.8369 },
+        { "name": "Ankara Kalesi", "lat": 39.9416, "lng": 32.8609 },
+        {
+          "name": "Atatürk Orman Çiftliği ve Hayvanat Bahçesi",
+          "lat": 39.9375,
+          "lng": 32.8016
+        },
+        { "name": "Etnografya Müzesi", "lat": 39.9335, "lng": 32.8555 },
+        { "name": "Kocatepe Camii", "lat": 39.9173, "lng": 32.8597 },
+        {
+          "name": "Anadolu Medeniyetleri Müzesi",
+          "lat": 39.9397,
+          "lng": 32.861
+        },
+        { "name": "Gençlik Parkı", "lat": 39.9339, "lng": 32.8507 },
+        { "name": "CerModern", "lat": 39.9372, "lng": 32.8506 },
+        { "name": "Atatürk Evi Müzesi", "lat": 39.9403, "lng": 32.8546 },
+        { "name": "Roma Hamamı", "lat": 39.942, "lng": 32.8593 }
+      ]
+    },
+    {
+      "city_name": "Antalya",
+      "famous_places": [
+        { "name": "Konyaaltı Plajı", "lat": 36.885, "lng": 30.657 },
+        { "name": "Aspendos Antik Tiyatrosu", "lat": 36.9364, "lng": 31.1645 },
+        { "name": "Kaleiçi", "lat": 36.8841, "lng": 30.7056 },
+        { "name": "Düden Şelalesi", "lat": 36.9156, "lng": 30.792 },
+        { "name": "Olympos Antik Kenti", "lat": 36.4061, "lng": 30.4714 },
+        { "name": "Termessos Antik Kenti", "lat": 36.9988, "lng": 30.5083 },
+        { "name": "Phaselis Antik Kenti", "lat": 36.52, "lng": 30.5526 },
+        { "name": "Perge Antik Kenti", "lat": 37.0017, "lng": 30.8494 },
+        { "name": "Kurşunlu Şelalesi", "lat": 37.0279, "lng": 30.9014 },
+        { "name": "Karaalioğlu Parkı", "lat": 36.8829, "lng": 30.7096 }
+      ]
+    },
+    {
+      "city_name": "Artvin",
+      "famous_places": [
+        {
+          "name": "Karagöl-Sahara Milli Parkı",
+          "lat": 41.2687,
+          "lng": 42.1147
+        },
+        { "name": "Macahel Vadisi", "lat": 41.3895, "lng": 41.843 },
+        { "name": "Borçka Karagöl", "lat": 41.3064, "lng": 41.8483 },
+        { "name": "Mençuna Şelalesi", "lat": 41.294, "lng": 41.7915 },
+        { "name": "Hatila Vadisi Milli Parkı", "lat": 41.1784, "lng": 41.7162 },
+        { "name": "Şavşat Karagöl", "lat": 41.2472, "lng": 42.3663 },
+        { "name": "Barhal Kilisesi", "lat": 41.3221, "lng": 42.4373 },
+        { "name": "Atabarı Kayak Merkezi", "lat": 41.1231, "lng": 41.8921 },
+        { "name": "Arhavi Çifte Köprü", "lat": 41.2489, "lng": 41.7597 },
+        { "name": "Çoruh Nehri", "lat": 41.1256, "lng": 41.825 }
+      ]
+    },
+    {
+      "city_name": "Aydın",
+      "famous_places": [
+        { "name": "Afrodisias Antik Kenti", "lat": 37.706, "lng": 28.7234 },
+        { "name": "Milet Antik Kenti", "lat": 37.5307, "lng": 27.2773 },
+        { "name": "Didim Apollon Tapınağı", "lat": 37.386, "lng": 27.2561 },
+        { "name": "Priene Antik Kenti", "lat": 37.6582, "lng": 27.3167 },
+        { "name": "Kuşadası Milli Parkı", "lat": 37.7107, "lng": 27.0867 },
+        { "name": "Tralleis Antik Kenti", "lat": 37.853, "lng": 27.8404 },
+        { "name": "Arpaz Kalesi", "lat": 37.7678, "lng": 28.1554 },
+        { "name": "Magnesia Antik Kenti", "lat": 37.8551, "lng": 27.6317 },
+        {
+          "name": "Dilek Yarımadası Milli Parkı",
+          "lat": 37.6604,
+          "lng": 27.1095
+        },
+        { "name": "Altınkum Plajı", "lat": 37.3446, "lng": 27.2771 }
+      ]
+    },
+    {
+      "city_name": "Balıkesir",
+      "famous_places": [
+        { "name": "Kaz Dağları Milli Parkı", "lat": 39.6957, "lng": 26.7266 },
+        { "name": "Cunda Adası", "lat": 39.3597, "lng": 26.6469 },
+        { "name": "Ayvalık", "lat": 39.3176, "lng": 26.6933 },
+        { "name": "Sarıkız Tepesi", "lat": 39.6661, "lng": 26.8073 },
+        { "name": "Manyas Kuş Cenneti", "lat": 40.1554, "lng": 27.9783 },
+        { "name": "Şeytan Sofrası", "lat": 39.3203, "lng": 26.6467 },
+        { "name": "Sütüven Şelalesi", "lat": 39.6667, "lng": 26.7989 },
+        { "name": "Antandros Antik Kenti", "lat": 39.5596, "lng": 26.8587 },
+        { "name": "Koca Seyit Anıtı", "lat": 39.6011, "lng": 26.8843 },
+        {
+          "name": "Balıkesir Kuvayi Milliye Müzesi",
+          "lat": 39.6484,
+          "lng": 27.8849
+        }
+      ]
+    },
+    {
+      "city_name": "Bilecik",
+      "famous_places": [
+        { "name": "Şeyh Edebali Türbesi", "lat": 40.1497, "lng": 29.9798 },
+        {
+          "name": "Söğüt Ertuğrul Gazi Müzesi",
+          "lat": 40.0208,
+          "lng": 30.1834
+        },
+        { "name": "Osmaneli Evleri", "lat": 40.3731, "lng": 30.0257 },
+        { "name": "Köprülü Mehmet Paşa Camii", "lat": 40.3724, "lng": 30.0281 },
+        { "name": "Harmankaya Kanyonu", "lat": 40.2675, "lng": 30.3036 },
+        { "name": "Bilecik Müzesi", "lat": 40.1484, "lng": 29.9801 },
+        {
+          "name": "Pazaryeri Küçükelmalı Tabiat Parkı",
+          "lat": 40.1931,
+          "lng": 29.8974
+        },
+        { "name": "Metristepe Zafer Anıtı", "lat": 39.8207, "lng": 30.2517 },
+        { "name": "Söğüt Müzesi", "lat": 40.0201, "lng": 30.185 },
+        { "name": "İnhisar Mağaraları", "lat": 40.1834, "lng": 30.121 }
+      ]
+    },
+    {
+      "city_name": "Bingöl",
+      "famous_places": [
+        { "name": "Yüzen Adalar", "lat": 39.1175, "lng": 40.6203 },
+        { "name": "Kös Kaplıcaları", "lat": 39.0647, "lng": 40.4681 },
+        { "name": "Bingöl Yaylaları", "lat": 39.0677, "lng": 40.5633 },
+        { "name": "Kiğı Kalesi", "lat": 39.1345, "lng": 40.6655 },
+        { "name": "Çır Şelalesi", "lat": 39.1375, "lng": 40.6883 },
+        { "name": "Zağ Mağaraları", "lat": 39.0654, "lng": 40.5801 },
+        { "name": "Hazarşah Kalesi", "lat": 39.0755, "lng": 40.5865 },
+        { "name": "Buban Bacaları", "lat": 39.0947, "lng": 40.5657 },
+        { "name": "Kığı Ceviz Ağacı", "lat": 39.1145, "lng": 40.6055 },
+        { "name": "Haserek Kayak Merkezi", "lat": 39.0435, "lng": 40.4672 }
+      ]
+    },
+    {
+      "city_name": "Bitlis",
+      "famous_places": [
+        { "name": "Nemrut Krater Gölü", "lat": 38.6541, "lng": 42.2345 },
+        { "name": "Ahlat Selçuklu Mezarlığı", "lat": 38.7514, "lng": 42.4913 },
+        { "name": "Bitlis Kalesi", "lat": 38.3991, "lng": 42.1077 },
+        { "name": "İhlasiye Medresesi", "lat": 38.3991, "lng": 42.1078 },
+        { "name": "Ahlat Müzesi", "lat": 38.7514, "lng": 42.4914 },
+        { "name": "Tatvan Sahil", "lat": 38.4921, "lng": 42.2821 },
+        { "name": "Şerefiye Külliyesi", "lat": 38.4085, "lng": 42.1073 },
+        { "name": "Adilcevaz Kalesi", "lat": 38.7987, "lng": 42.7344 },
+        { "name": "El-Aman Kervansarayı", "lat": 38.5183, "lng": 42.1356 },
+        { "name": "Nemrut Dağı Kayak Merkezi", "lat": 38.6796, "lng": 42.2365 }
+      ]
+    },
+    {
+      "city_name": "Bolu",
+      "famous_places": [
+        { "name": "Abant Gölü", "lat": 40.6016, "lng": 31.2625 },
+        { "name": "Yedigöller Milli Parkı", "lat": 40.9521, "lng": 31.7441 },
+        { "name": "Gölcük Tabiat Parkı", "lat": 40.6178, "lng": 31.4887 },
+        { "name": "Kartalkaya Kayak Merkezi", "lat": 40.5891, "lng": 31.7021 },
+        { "name": "Seben Kaya Evleri", "lat": 40.4664, "lng": 31.3666 },
+        { "name": "Bolu Müzesi", "lat": 40.7376, "lng": 31.6074 },
+        { "name": "Bolu Atatürk Orman Parkı", "lat": 40.7435, "lng": 31.5956 },
+        { "name": "Akkaya Travertenleri", "lat": 40.6112, "lng": 31.1756 },
+        { "name": "Örmeci Yaylası", "lat": 40.7112, "lng": 31.5302 },
+        { "name": "Sülüklü Göl", "lat": 40.6177, "lng": 31.2625 }
+      ]
+    },
+    {
+      "city_name": "Burdur",
+      "famous_places": [
+        { "name": "Salda Gölü", "lat": 37.5459, "lng": 29.6886 },
+        { "name": "Sagalassos Antik Kenti", "lat": 37.6735, "lng": 30.5159 },
+        { "name": "Burdur Arkeoloji Müzesi", "lat": 37.7182, "lng": 30.2866 },
+        { "name": "İnsuyu Mağarası", "lat": 37.7163, "lng": 30.3625 },
+        { "name": "Kibyra Antik Kenti", "lat": 37.3778, "lng": 29.3055 },
+        { "name": "Lavanta Deresi", "lat": 37.5128, "lng": 29.7034 },
+        { "name": "Burdur Gölü", "lat": 37.7488, "lng": 30.1309 },
+        { "name": "Susuz Kervansarayı", "lat": 37.7187, "lng": 30.2804 },
+        { "name": "Baki Bey Konağı", "lat": 37.7212, "lng": 30.2847 },
+        { "name": "Hacılar Höyüğü", "lat": 37.7153, "lng": 30.2882 }
+      ]
+    },
+    {
+      "city_name": "Bursa",
+      "famous_places": [
+        { "name": "Uludağ Milli Parkı", "lat": 40.1086, "lng": 29.2196 },
+        { "name": "Cumalıkızık Köyü", "lat": 40.1871, "lng": 29.2079 },
+        { "name": "Bursa Ulu Camii", "lat": 40.1826, "lng": 29.0663 },
+        { "name": "Yeşil Türbe", "lat": 40.1822, "lng": 29.0732 },
+        { "name": "Emir Sultan Camii", "lat": 40.183, "lng": 29.0747 },
+        { "name": "İznik Gölü", "lat": 40.4274, "lng": 29.5133 },
+        { "name": "Tophane Saat Kulesi", "lat": 40.1854, "lng": 29.0655 },
+        { "name": "Bursa Teleferik", "lat": 40.1875, "lng": 29.0567 },
+        { "name": "Mudanya", "lat": 40.3744, "lng": 28.8828 },
+        { "name": "Gölyazı", "lat": 40.1484, "lng": 28.7281 }
+      ]
+    },
+    {
+      "city_name": "Çanakkale",
+      "famous_places": [
+        { "name": "Truva Antik Kenti", "lat": 39.957, "lng": 26.238 },
+        { "name": "Çanakkale Şehitler Abidesi", "lat": 40.052, "lng": 26.2075 },
+        { "name": "Assos Antik Kenti", "lat": 39.4884, "lng": 26.334 },
+        {
+          "name": "Gelibolu Yarımadası Tarihi Milli Parkı",
+          "lat": 40.0685,
+          "lng": 26.231
+        },
+        { "name": "Bozcaada", "lat": 39.8323, "lng": 26.0685 },
+        { "name": "Kaz Dağları Milli Parkı", "lat": 39.6757, "lng": 26.7117 },
+        { "name": "Aynalı Çarşı", "lat": 40.149, "lng": 26.4021 },
+        { "name": "Cunda Adası", "lat": 39.3565, "lng": 26.6483 },
+        { "name": "Conkbayırı", "lat": 40.0562, "lng": 26.2522 },
+        { "name": "Apollon Smintheion", "lat": 39.53, "lng": 26.1356 }
+      ]
+    },
+    {
+      "city_name": "Çankırı",
+      "famous_places": [
+        { "name": "Ilgaz Dağı Milli Parkı", "lat": 40.9275, "lng": 33.7202 },
+        { "name": "Çankırı Kalesi", "lat": 40.6025, "lng": 33.6131 },
+        { "name": "Tuz Mağarası", "lat": 40.6508, "lng": 33.6178 },
+        { "name": "Buğday Pazarı Medresesi", "lat": 40.6019, "lng": 33.6145 },
+        { "name": "Çankırı Müzesi", "lat": 40.6022, "lng": 33.6158 },
+        { "name": "Sakaeli Kaya Mezarları", "lat": 40.6152, "lng": 33.6063 },
+        { "name": "Koca Meşe", "lat": 40.6265, "lng": 33.6207 },
+        { "name": "Gökçe Yaylası", "lat": 40.6464, "lng": 33.6263 },
+        { "name": "Eldivan Kocaçay", "lat": 40.6518, "lng": 33.6281 },
+        { "name": "Hoca Ahmet Yesevi Camii", "lat": 40.6075, "lng": 33.6208 }
+      ]
+    },
+    {
+      "city_name": "Çorum",
+      "famous_places": [
+        { "name": "Hattuşaş Antik Kenti", "lat": 40.0187, "lng": 34.6198 },
+        { "name": "Boğazköy Müzesi", "lat": 40.0133, "lng": 34.6173 },
+        { "name": "Alacahöyük", "lat": 40.0271, "lng": 34.3733 },
+        { "name": "Çorum Müzesi", "lat": 40.5481, "lng": 34.9535 },
+        { "name": "İskilip Kaya Mezarı", "lat": 40.7358, "lng": 34.4665 },
+        { "name": "Kadeş Barış Anıtı", "lat": 40.0161, "lng": 34.6197 },
+        { "name": "Çorum Saat Kulesi", "lat": 40.5475, "lng": 34.9525 },
+        { "name": "Ulu Camii", "lat": 40.5481, "lng": 34.9537 },
+        { "name": "Osmancık Kalesi", "lat": 41.0166, "lng": 34.7984 },
+        { "name": "Veli Paşa Konağı", "lat": 40.5468, "lng": 34.9519 }
+      ]
+    },
+    {
+      "city_name": "Denizli",
+      "famous_places": [
+        { "name": "Pamukkale Travertenleri", "lat": 37.92, "lng": 29.12 },
+        { "name": "Hierapolis Antik Kenti", "lat": 37.9245, "lng": 29.1238 },
+        { "name": "Laodikeia Antik Kenti", "lat": 37.835, "lng": 29.1173 },
+        { "name": "Karahayıt Kaplıcaları", "lat": 37.9344, "lng": 29.1142 },
+        {
+          "name": "Pamukkale Hierapolis Arkeoloji Müzesi",
+          "lat": 37.9205,
+          "lng": 29.1222
+        },
+        { "name": "Kaklık Mağarası", "lat": 37.9233, "lng": 29.4115 },
+        { "name": "Tripolis Antik Kenti", "lat": 38.0092, "lng": 28.9725 },
+        { "name": "Güney Şelalesi", "lat": 37.5768, "lng": 29.0756 },
+        { "name": "Honaz Dağı Milli Parkı", "lat": 37.7525, "lng": 29.2655 },
+        { "name": "Colossae Antik Kenti", "lat": 37.7224, "lng": 29.2708 }
+      ]
+    },
+    {
+      "city_name": "Diyarbakır",
+      "famous_places": [
+        { "name": "Diyarbakır Surları", "lat": 37.9156, "lng": 40.2287 },
+        { "name": "Hasan Paşa Hanı", "lat": 37.9125, "lng": 40.2316 },
+        { "name": "Hevsel Bahçeleri", "lat": 37.91, "lng": 40.2265 },
+        { "name": "Dicle Nehri", "lat": 37.9155, "lng": 40.2261 },
+        { "name": "Ulu Camii", "lat": 37.915, "lng": 40.23 },
+        {
+          "name": "Cahit Sıtkı Tarancı Müzesi",
+          "lat": 37.9128,
+          "lng": 40.2308
+        },
+        { "name": "Malabadi Köprüsü", "lat": 38.1825, "lng": 40.0525 },
+        { "name": "Zerzevan Kalesi", "lat": 37.935, "lng": 40.1439 },
+        { "name": "Meryem Ana Kilisesi", "lat": 37.9131, "lng": 40.2296 },
+        { "name": "On Gözlü Köprü", "lat": 37.9051, "lng": 40.2172 }
+      ]
+    },
+    {
+      "city_name": "Edirne",
+      "famous_places": [
+        { "name": "Selimiye Camii", "lat": 41.6773, "lng": 26.5557 },
+        { "name": "Edirne Sarayı", "lat": 41.6792, "lng": 26.5596 },
+        { "name": "Meriç Köprüsü", "lat": 41.6617, "lng": 26.5489 },
+        { "name": "Eski Camii", "lat": 41.6748, "lng": 26.5584 },
+        {
+          "name": "Edirne Arkeoloji ve Etnografya Müzesi",
+          "lat": 41.6767,
+          "lng": 26.5553
+        },
+        {
+          "name": "Şükrü Paşa Anıtı ve Balkan Savaşı Müzesi",
+          "lat": 41.6884,
+          "lng": 26.5564
+        },
+        { "name": "Karaağaç Tren İstasyonu", "lat": 41.6433, "lng": 26.568 },
+        { "name": "Rüstempaşa Kervansarayı", "lat": 41.676, "lng": 26.5589 },
+        {
+          "name": "II. Bayezid Külliyesi ve Sağlık Müzesi",
+          "lat": 41.6716,
+          "lng": 26.5283
+        },
+        { "name": "Saraçlar Caddesi", "lat": 41.6745, "lng": 26.5599 }
+      ]
+    },
+    {
+      "city_name": "Elazığ",
+      "famous_places": [
+        { "name": "Harput Kalesi", "lat": 38.6839, "lng": 39.2338 },
+        { "name": "Hazar Gölü", "lat": 38.4848, "lng": 39.3514 },
+        { "name": "Buzluk Mağarası", "lat": 38.6814, "lng": 39.2309 },
+        {
+          "name": "Elazığ Arkeoloji ve Etnografya Müzesi",
+          "lat": 38.6754,
+          "lng": 39.2345
+        },
+        { "name": "Meryem Ana Kilisesi", "lat": 38.6836, "lng": 39.234 },
+        { "name": "Harput Ulu Camii", "lat": 38.6835, "lng": 39.2337 },
+        { "name": "Çırçır Şelalesi", "lat": 38.5061, "lng": 39.4089 },
+        { "name": "Sivrice Kayak Merkezi", "lat": 38.487, "lng": 39.4008 },
+        { "name": "Golan Kaplıcaları", "lat": 38.4708, "lng": 39.4185 },
+        { "name": "Palu Kalesi", "lat": 38.6913, "lng": 39.6338 }
+      ]
+    },
+    {
+      "city_name": "Erzincan",
+      "famous_places": [
+        { "name": "Girlevik Şelalesi", "lat": 39.7301, "lng": 39.645 },
+        { "name": "Kemaliye Taş Yolu", "lat": 39.2603, "lng": 38.4958 },
+        { "name": "Ergan Kayak Merkezi", "lat": 39.7522, "lng": 39.5185 },
+        { "name": "Altıntepe Ören Yeri", "lat": 39.8476, "lng": 39.4941 },
+        { "name": "Otlukbeli Gölü", "lat": 39.6887, "lng": 39.3558 },
+        { "name": "Mama Hatun Kervansarayı", "lat": 39.7441, "lng": 39.4975 },
+        { "name": "Karanlık Kanyon", "lat": 39.297, "lng": 38.5274 },
+        { "name": "Kemah Kalesi", "lat": 39.5936, "lng": 39.0308 },
+        { "name": "Munzur Dağları", "lat": 39.4044, "lng": 39.5311 },
+        { "name": "Terzibaba Türbesi", "lat": 39.7461, "lng": 39.4969 }
+      ]
+    },
+    {
+      "city_name": "Erzurum",
+      "famous_places": [
+        { "name": "Palandöken Kayak Merkezi", "lat": 39.8673, "lng": 41.284 },
+        { "name": "Çifte Minareli Medrese", "lat": 39.903, "lng": 41.2672 },
+        { "name": "Erzurum Kalesi", "lat": 39.9082, "lng": 41.2734 },
+        { "name": "Yakutiye Medresesi", "lat": 39.9056, "lng": 41.2696 },
+        { "name": "Atatürk Evi Müzesi", "lat": 39.9126, "lng": 41.2687 },
+        { "name": "Narman Peri Bacaları", "lat": 40.3422, "lng": 41.4526 },
+        { "name": "Tortum Şelalesi", "lat": 40.3114, "lng": 41.5371 },
+        { "name": "Üç Kümbetler", "lat": 39.9062, "lng": 41.2705 },
+        { "name": "Rüstem Paşa Bedesteni", "lat": 39.9052, "lng": 41.2694 },
+        { "name": "Aziziye Tabyaları", "lat": 39.9437, "lng": 41.2735 }
+      ]
+    },
+    {
+      "city_name": "Eskişehir",
+      "famous_places": [
+        { "name": "Odunpazarı Evleri", "lat": 39.7628, "lng": 30.5269 },
+        { "name": "Sazova Parkı", "lat": 39.7905, "lng": 30.4602 },
+        { "name": "Porsuk Çayı", "lat": 39.7755, "lng": 30.522 },
+        {
+          "name": "Eskişehir Balmumu Heykeller Müzesi",
+          "lat": 39.7618,
+          "lng": 30.5276
+        },
+        {
+          "name": "Kurşunlu Camii ve Külliyesi",
+          "lat": 39.7626,
+          "lng": 30.5264
+        },
+        { "name": "Kentpark", "lat": 39.7678, "lng": 30.508 },
+        { "name": "Lületaşı Müzesi", "lat": 39.7629, "lng": 30.5269 },
+        {
+          "name": "Eskişehir Hayvanat Bahçesi",
+          "lat": 39.7911,
+          "lng": 30.4601
+        },
+        {
+          "name": "Atlıhan El Sanatları Çarşısı",
+          "lat": 39.7628,
+          "lng": 30.5269
+        },
+        { "name": "Şelale Park", "lat": 39.7717, "lng": 30.5185 }
+      ]
+    },
+    {
+      "city_name": "Gaziantep",
+      "famous_places": [
+        { "name": "Zeugma Mozaik Müzesi", "lat": 37.0662, "lng": 37.3832 },
+        { "name": "Gaziantep Kalesi", "lat": 37.0659, "lng": 37.3833 },
+        { "name": "Bakırcılar Çarşısı", "lat": 37.0661, "lng": 37.3841 },
+        { "name": "Gaziantep Hayvanat Bahçesi", "lat": 37.046, "lng": 37.3738 },
+        { "name": "Yesemek Açık Hava Müzesi", "lat": 36.9521, "lng": 37.8931 },
+        { "name": "Rumkale", "lat": 37.3864, "lng": 37.7971 },
+        { "name": "Tahmis Kahvesi", "lat": 37.0673, "lng": 37.3835 },
+        { "name": "Emine Göğüş Mutfak Müzesi", "lat": 37.0667, "lng": 37.3843 },
+        { "name": "Dülük Antik Kenti", "lat": 37.1328, "lng": 37.3045 },
+        { "name": "Tarihi Millet Hanı", "lat": 37.0643, "lng": 37.384 }
+      ]
+    },
+    {
+      "city_name": "Giresun",
+      "famous_places": [
+        { "name": "Giresun Kalesi", "lat": 40.9121, "lng": 38.3914 },
+        { "name": "Giresun Adası", "lat": 40.9097, "lng": 38.3962 },
+        {
+          "name": "Kuzalan Şelalesi Tabiat Parkı",
+          "lat": 40.8185,
+          "lng": 38.3832
+        },
+        { "name": "Meryem Ana Manastırı", "lat": 40.9144, "lng": 38.3941 },
+        { "name": "Kulakkaya Yaylası", "lat": 40.8401, "lng": 38.3841 },
+        { "name": "Zeytinlik Mahallesi", "lat": 40.9129, "lng": 38.3917 },
+        { "name": "Giresun Müzesi", "lat": 40.9124, "lng": 38.3916 },
+        { "name": "Paşakonağı Yaylası", "lat": 40.8491, "lng": 38.3925 },
+        { "name": "Gölyanı Yaylası", "lat": 40.8612, "lng": 38.3937 },
+        { "name": "Seyyid Vakkas Türbesi", "lat": 40.9167, "lng": 38.3992 }
+      ]
+    },
+    {
+      "city_name": "Gümüşhane",
+      "famous_places": [
+        { "name": "Karaca Mağarası", "lat": 40.4331, "lng": 39.4564 },
+        { "name": "Tomara Şelalesi", "lat": 40.4227, "lng": 39.3472 },
+        { "name": "Santa Harabeleri", "lat": 40.5241, "lng": 39.4251 },
+        { "name": "Zigana Geçidi", "lat": 40.4135, "lng": 39.4147 },
+        { "name": "Limburgia Kalesi", "lat": 40.5113, "lng": 39.427 },
+        { "name": "Kov Kalesi", "lat": 40.5117, "lng": 39.4269 },
+        {
+          "name": "Artabel Gölleri Tabiat Parkı",
+          "lat": 40.5451,
+          "lng": 39.4325
+        },
+        { "name": "Torul Cam Seyir Terası", "lat": 40.4171, "lng": 39.414 },
+        { "name": "Satala Antik Kenti", "lat": 40.5489, "lng": 39.4253 },
+        { "name": "Çakırgöl Yaylası", "lat": 40.4347, "lng": 39.4217 }
+      ]
+    },
+    {
+      "city_name": "Hakkari",
+      "famous_places": [
+        { "name": "Cilo Dağı", "lat": 37.4, "lng": 44.3 },
+        { "name": "Sat Buzul Gölleri", "lat": 37.3032, "lng": 44.3015 },
+        { "name": "Şemdinli Taş Köprü", "lat": 37.3029, "lng": 44.5736 },
+        { "name": "Mergabüt Kayak Merkezi", "lat": 37.3065, "lng": 44.5155 },
+        { "name": "Zap Vadisi", "lat": 37.4255, "lng": 44.3021 },
+        { "name": "Dirheler Yaylası", "lat": 37.2815, "lng": 44.4105 },
+        { "name": "Koçanıs Yaylası", "lat": 37.35, "lng": 44.2667 },
+        { "name": "Hakkari Meydan Medresesi", "lat": 37.5741, "lng": 44.2189 },
+        { "name": "Seyithan Gölü", "lat": 37.47, "lng": 44.2695 },
+        { "name": "Durankaya Yaylası", "lat": 37.4167, "lng": 44.3333 }
+      ]
+    },
+    {
+      "city_name": "Hatay",
+      "famous_places": [
+        { "name": "Antakya Arkeoloji Müzesi", "lat": 36.2015, "lng": 36.1606 },
+        { "name": "Habib-i Neccar Camii", "lat": 36.2025, "lng": 36.1619 },
+        { "name": "Saint Pierre Kilisesi", "lat": 36.2083, "lng": 36.1655 },
+        { "name": "Harbiye Şelaleleri", "lat": 36.1459, "lng": 36.1456 },
+        { "name": "Samandağ Titus Tüneli", "lat": 36.0917, "lng": 35.9765 },
+        { "name": "Vakifli Köyü", "lat": 36.0955, "lng": 35.947 },
+        { "name": "Hatay Uzun Çarşı", "lat": 36.2062, "lng": 36.1618 },
+        { "name": "Beşikli Mağara", "lat": 36.0751, "lng": 35.9765 },
+        { "name": "Hatay Mozaik Müzesi", "lat": 36.2017, "lng": 36.161 },
+        { "name": "Hatay Sinagogu", "lat": 36.2028, "lng": 36.1647 }
+      ]
+    },
+    {
+      "city_name": "Isparta",
+      "famous_places": [
+        { "name": "Eğirdir Gölü", "lat": 37.8755, "lng": 30.8489 },
+        { "name": "Lavanta Kokulu Köy", "lat": 37.926, "lng": 30.8919 },
+        { "name": "Davraz Kayak Merkezi", "lat": 37.7267, "lng": 30.7658 },
+        {
+          "name": "Isparta Gölcük Tabiat Parkı",
+          "lat": 37.8622,
+          "lng": 30.5506
+        },
+        { "name": "Zindan Mağarası", "lat": 38.0734, "lng": 30.8907 },
+        { "name": "Kovada Gölü Milli Parkı", "lat": 37.697, "lng": 30.8902 },
+        { "name": "Adada Antik Kenti", "lat": 37.7524, "lng": 30.7502 },
+        { "name": "Yazılı Kanyon Milli Parkı", "lat": 38.0187, "lng": 30.8933 },
+        { "name": "Uluborlu Kalesi", "lat": 38.0834, "lng": 30.7307 },
+        { "name": "Aya Baniya Kilisesi", "lat": 37.868, "lng": 30.891 }
+      ]
+    },
+    {
+      "city_name": "Mersin",
+      "famous_places": [
+        { "name": "Kızkalesi", "lat": 36.4562, "lng": 34.1453 },
+        {
+          "name": "Cennet Cehennem Mağaraları",
+          "lat": 36.4634,
+          "lng": 34.1345
+        },
+        { "name": "Mersin Marina", "lat": 36.7676, "lng": 34.5762 },
+        { "name": "Tarsus Şelalesi", "lat": 36.9246, "lng": 34.8924 },
+        {
+          "name": "St. Paul Kilisesi ve Kuyusu",
+          "lat": 36.9165,
+          "lng": 34.8829
+        },
+        { "name": "Kanlıdivane Antik Kenti", "lat": 36.4617, "lng": 34.1 },
+        { "name": "Alahan Manastırı", "lat": 36.8047, "lng": 34.4655 },
+        { "name": "Mamure Kalesi", "lat": 36.3195, "lng": 32.9761 },
+        { "name": "Silifke Kalesi", "lat": 36.3761, "lng": 33.9313 },
+        { "name": "Astım Mağarası", "lat": 36.456, "lng": 34.1308 }
+      ]
+    },
+    {
+      "city_name": "İstanbul",
+      "famous_places": [
+        { "name": "Ayasofya Camii", "lat": 41.0086, "lng": 28.9802 },
+        { "name": "Topkapı Sarayı", "lat": 41.0115, "lng": 28.9833 },
+        { "name": "Sultanahmet Camii", "lat": 41.0055, "lng": 28.9769 },
+        { "name": "Kapalıçarşı", "lat": 41.01, "lng": 28.9686 },
+        { "name": "Dolmabahçe Sarayı", "lat": 41.039, "lng": 29.0002 },
+        { "name": "Galata Kulesi", "lat": 41.0255, "lng": 28.9741 },
+        { "name": "Kız Kulesi", "lat": 41.021, "lng": 29.0042 },
+        { "name": "Bosphorus Turu", "lat": 41.0321, "lng": 29.0264 },
+        { "name": "İstanbul Arkeoloji Müzesi", "lat": 41.0095, "lng": 28.9811 },
+        { "name": "Süleymaniye Camii", "lat": 41.0165, "lng": 28.9634 }
+      ]
+    },
+    {
+      "city_name": "İzmir",
+      "famous_places": [
+        { "name": "Efes Antik Kenti", "lat": 37.9399, "lng": 27.3417 },
+        { "name": "İzmir Saat Kulesi", "lat": 38.4192, "lng": 27.1287 },
+        { "name": "Kadifekale", "lat": 38.4093, "lng": 27.1425 },
+        { "name": "Kemeraltı Çarşısı", "lat": 38.4192, "lng": 27.1305 },
+        { "name": "İzmir Arkeoloji Müzesi", "lat": 38.4196, "lng": 27.1374 },
+        { "name": "Konak Meydanı", "lat": 38.4192, "lng": 27.1295 },
+        { "name": "Alaçatı", "lat": 38.2856, "lng": 26.3772 },
+        { "name": "Çeşme Kalesi", "lat": 38.3242, "lng": 26.3056 },
+        { "name": "Bergama Antik Kenti", "lat": 39.1202, "lng": 27.1805 },
+        { "name": "Seferihisar", "lat": 38.1964, "lng": 26.8382 }
+      ]
+    },
+    {
+      "city_name": "Kars",
+      "famous_places": [
+        { "name": "Ani Harabeleri", "lat": 40.5075, "lng": 43.5706 },
+        { "name": "Kars Kalesi", "lat": 40.6021, "lng": 43.0944 },
+        { "name": "Çıldır Gölü", "lat": 41.0369, "lng": 43.2353 },
+        { "name": "Sarıkamış Kayak Merkezi", "lat": 40.3458, "lng": 42.6134 },
+        { "name": "Fethiye Camii", "lat": 40.6078, "lng": 43.0897 },
+        { "name": "Kuyucuk Kuş Cenneti", "lat": 40.9192, "lng": 43.426 },
+        { "name": "Katerina Köşkü", "lat": 40.3334, "lng": 42.5686 },
+        { "name": "Taş Köprü", "lat": 40.6022, "lng": 43.0934 },
+        { "name": "Ebu'l Menuçehr Camii", "lat": 40.5111, "lng": 43.572 },
+        { "name": "Kuyucuk Gölü", "lat": 40.9194, "lng": 43.4262 }
+      ]
+    },
+    {
+      "city_name": "Kastamonu",
+      "famous_places": [
+        { "name": "Kastamonu Kalesi", "lat": 41.3757, "lng": 33.7741 },
+        { "name": "Ilgaz Dağı Milli Parkı", "lat": 41.0176, "lng": 33.7107 },
+        { "name": "Valla Kanyonu", "lat": 41.6956, "lng": 33.5143 },
+        { "name": "Evkaya Mezarları", "lat": 41.3771, "lng": 33.7758 },
+        {
+          "name": "Şeyh Şaban-ı Veli Külliyesi",
+          "lat": 41.3795,
+          "lng": 33.7751
+        },
+        { "name": "Pompeiopolis Antik Kenti", "lat": 41.4397, "lng": 33.7687 },
+        { "name": "Küre Dağları Milli Parkı", "lat": 41.6253, "lng": 33.6254 },
+        { "name": "İsmail Bey Külliyesi", "lat": 41.3805, "lng": 33.7757 },
+        {
+          "name": "Liva Paşa Konağı Etnografya Müzesi",
+          "lat": 41.3752,
+          "lng": 33.7737
+        },
+        { "name": "İnebolu", "lat": 41.9789, "lng": 33.7595 }
+      ]
+    },
+    {
+      "city_name": "Kayseri",
+      "famous_places": [
+        { "name": "Erciyes Kayak Merkezi", "lat": 38.5373, "lng": 35.4605 },
+        { "name": "Kapuzbaşı Şelalesi", "lat": 37.8231, "lng": 35.2897 },
+        { "name": "Kayseri Kalesi", "lat": 38.7204, "lng": 35.4857 },
+        { "name": "Hunat Hatun Külliyesi", "lat": 38.7221, "lng": 35.4848 },
+        { "name": "Gevher Nesibe Şifahanesi", "lat": 38.7193, "lng": 35.4862 },
+        {
+          "name": "Sultan Sazlığı Milli Parkı",
+          "lat": 38.2725,
+          "lng": 35.0356
+        },
+        { "name": "Ağırnas Yeraltı Şehri", "lat": 38.8255, "lng": 35.4183 },
+        { "name": "Soğanlı Vadisi", "lat": 38.3394, "lng": 35.6038 },
+        { "name": "Aladağlar Milli Parkı", "lat": 37.7576, "lng": 35.2074 },
+        { "name": "Kültepe Antik Kenti", "lat": 38.8426, "lng": 35.7258 }
+      ]
+    },
+    {
+      "city_name": "Kırklareli",
+      "famous_places": [
+        { "name": "Dupnisa Mağarası", "lat": 41.833, "lng": 27.5828 },
+        { "name": "Kıyıköy", "lat": 41.6262, "lng": 28.0871 },
+        { "name": "İğneada Longoz Ormanları", "lat": 41.8384, "lng": 27.9847 },
+        { "name": "Aya Nikola Manastırı", "lat": 41.6278, "lng": 28.0819 },
+        { "name": "Kırklareli Müzesi", "lat": 41.7353, "lng": 27.2224 },
+        { "name": "Atatürk Evi", "lat": 41.7352, "lng": 27.2242 },
+        { "name": "Vize Antik Tiyatrosu", "lat": 41.5985, "lng": 27.7821 },
+        { "name": "Beğendik Köyü", "lat": 41.8621, "lng": 28.0335 },
+        { "name": "Demirköy Dökümhanesi", "lat": 41.8751, "lng": 27.9517 },
+        { "name": "Panayır İskelesi", "lat": 41.6449, "lng": 28.0877 }
+      ]
+    },
+    {
+      "city_name": "Kırşehir",
+      "famous_places": [
+        { "name": "Cacabey Medresesi", "lat": 39.1467, "lng": 34.1638 },
+        {
+          "name": "Ahi Evran Camii ve Türbesi",
+          "lat": 39.1442,
+          "lng": 34.1627
+        },
+        { "name": "Kırşehir Müzesi", "lat": 39.1461, "lng": 34.1625 },
+        { "name": "Kesikköprü Kervansarayı", "lat": 38.9336, "lng": 34.1453 },
+        { "name": "Terme Kaplıcaları", "lat": 39.1883, "lng": 34.0664 },
+        { "name": "Mucur Yeraltı Şehri", "lat": 39.0746, "lng": 34.3776 },
+        { "name": "Hirfanlı Barajı", "lat": 39.1649, "lng": 33.9737 },
+        { "name": "Seyfe Gölü Kuş Cenneti", "lat": 39.2957, "lng": 34.5303 },
+        { "name": "Aflak Baba Türbesi", "lat": 39.1475, "lng": 34.1629 },
+        { "name": "Aşıkpaşa Tabiat Parkı", "lat": 39.1437, "lng": 34.1651 }
+      ]
+    },
+    {
+      "city_name": "Kocaeli",
+      "famous_places": [
+        { "name": "Kartepe Kayak Merkezi", "lat": 40.7309, "lng": 30.1503 },
+        { "name": "Kerpe", "lat": 41.1314, "lng": 30.6674 },
+        { "name": "Maşukiye", "lat": 40.7208, "lng": 30.1697 },
+        { "name": "Ormanya Doğal Yaşam Parkı", "lat": 40.7597, "lng": 30.1167 },
+        { "name": "Gayret Gemi Müzesi", "lat": 40.7654, "lng": 29.9295 },
+        { "name": "Kocaeli Bilim Merkezi", "lat": 40.7681, "lng": 29.9297 },
+        { "name": "Saat Kulesi", "lat": 40.7629, "lng": 29.9283 },
+        { "name": "Kefken Adası", "lat": 41.1367, "lng": 30.6787 },
+        { "name": "Ballıkayalar Tabiat Parkı", "lat": 40.785, "lng": 29.9841 },
+        {
+          "name": "İzmit Arkeoloji ve Etnografya Müzesi",
+          "lat": 40.7662,
+          "lng": 29.9284
+        }
+      ]
+    },
+    {
+      "city_name": "Konya",
+      "famous_places": [
+        { "name": "Mevlana Müzesi", "lat": 37.8704, "lng": 32.5053 },
+        { "name": "Karatay Medresesi", "lat": 37.8724, "lng": 32.5055 },
+        { "name": "Alaaddin Tepesi", "lat": 37.8719, "lng": 32.4972 },
+        { "name": "Sille Köyü", "lat": 37.9726, "lng": 32.4056 },
+        { "name": "Tuz Gölü", "lat": 38.7473, "lng": 33.2827 },
+        { "name": "Çatalhöyük Antik Kenti", "lat": 37.6638, "lng": 32.826 },
+        { "name": "Meram Bağları", "lat": 37.8417, "lng": 32.4242 },
+        { "name": "Beyşehir Gölü Milli Parkı", "lat": 37.7628, "lng": 31.6487 },
+        {
+          "name": "Konya Tropikal Kelebek Bahçesi",
+          "lat": 37.8853,
+          "lng": 32.4633
+        },
+        { "name": "İnce Minareli Medrese", "lat": 37.8727, "lng": 32.5009 }
+      ]
+    },
+    {
+      "city_name": "Kütahya",
+      "famous_places": [
+        { "name": "Aizanoi Antik Kenti", "lat": 39.1969, "lng": 29.6269 },
+        { "name": "Frig Vadisi", "lat": 39.1986, "lng": 30.1691 },
+        { "name": "Kütahya Kalesi", "lat": 39.424, "lng": 29.9792 },
+        { "name": "Dumlupınar Şehitliği", "lat": 39.2441, "lng": 29.6727 },
+        { "name": "Kütahya Arkeoloji Müzesi", "lat": 39.4232, "lng": 29.9776 },
+        { "name": "Çini Müzesi", "lat": 39.4227, "lng": 29.9784 },
+        { "name": "Domaniç Ormanları", "lat": 39.5823, "lng": 29.4647 },
+        { "name": "Yoncalı Kaplıcaları", "lat": 39.4228, "lng": 29.8634 },
+        { "name": "Germiyan Sokak", "lat": 39.4246, "lng": 29.9786 },
+        { "name": "Zafertepe Anıtı", "lat": 39.2447, "lng": 29.6721 }
+      ]
+    },
+    {
+      "city_name": "Malatya",
+      "famous_places": [
+        { "name": "Nemrut Dağı", "lat": 37.9816, "lng": 38.742 },
+        { "name": "Malatya Arkeoloji Müzesi", "lat": 38.354, "lng": 38.3119 },
+        { "name": "Battalgazi Ulu Camii", "lat": 38.3836, "lng": 38.3513 },
+        { "name": "Sultansuyu Harası", "lat": 38.2344, "lng": 38.2444 },
+        { "name": "Levent Vadisi", "lat": 38.4443, "lng": 38.1986 },
+        { "name": "Orduzu Pınarbaşı", "lat": 38.4083, "lng": 38.3684 },
+        { "name": "Günpınar Şelalesi", "lat": 38.5505, "lng": 37.9463 },
+        { "name": "Somuncu Baba Türbesi", "lat": 38.4856, "lng": 38.2028 },
+        { "name": "Eski Malatya", "lat": 38.3827, "lng": 38.3508 },
+        { "name": "Arslantepe Höyüğü", "lat": 38.4019, "lng": 38.3726 }
+      ]
+    },
+    {
+      "city_name": "Manisa",
+      "famous_places": [
+        { "name": "Spil Dağı Milli Parkı", "lat": 38.5629, "lng": 27.4077 },
+        { "name": "Manisa Kalesi", "lat": 38.605, "lng": 27.4236 },
+        { "name": "Sardes Antik Kenti", "lat": 38.4886, "lng": 28.0461 },
+        { "name": "Aigai Antik Kenti", "lat": 39.0685, "lng": 27.6618 },
+        { "name": "Mesir Macunu Festivali", "lat": 38.6066, "lng": 27.4211 },
+        { "name": "Manisa Müzesi", "lat": 38.6141, "lng": 27.4261 },
+        { "name": "Niobe Kaya Anıtı", "lat": 38.6104, "lng": 27.4269 },
+        { "name": "İvaz Paşa Camii", "lat": 38.6082, "lng": 27.4228 },
+        { "name": "Kula Peri Bacaları", "lat": 38.5474, "lng": 28.6405 },
+        { "name": "Kurşunlu Kaplıcaları", "lat": 38.5433, "lng": 28.5801 }
+      ]
+    },
+    {
+      "city_name": "Kahramanmaraş",
+      "famous_places": [
+        { "name": "Kahramanmaraş Kalesi", "lat": 37.5868, "lng": 36.9443 },
+        { "name": "Ekinözü Kaplıcaları", "lat": 38.1982, "lng": 37.3128 },
+        { "name": "Yedikuyular Kayak Merkezi", "lat": 37.5027, "lng": 36.9388 },
+        { "name": "Taş Medrese", "lat": 37.5847, "lng": 36.9413 },
+        { "name": "Germanicia Antik Kenti", "lat": 37.5773, "lng": 36.9374 },
+        { "name": "Başkonuş Yaylası", "lat": 37.4302, "lng": 36.8681 },
+        { "name": "Abdülhamid Han Camii", "lat": 37.5819, "lng": 36.9458 },
+        { "name": "Kazma Bağları", "lat": 37.6075, "lng": 36.9447 },
+        { "name": "Döngel Mağaraları", "lat": 37.8019, "lng": 37.1487 },
+        { "name": "Maraş Dondurma Müzesi", "lat": 37.5852, "lng": 36.9382 }
+      ]
+    },
+    {
+      "city_name": "Mardin",
+      "famous_places": [
+        { "name": "Mardin Kalesi", "lat": 37.3127, "lng": 40.735 },
+        { "name": "Deyrulzafaran Manastırı", "lat": 37.3045, "lng": 40.8004 },
+        { "name": "Zinciriye Medresesi", "lat": 37.3135, "lng": 40.7325 },
+        { "name": "Kasımiye Medresesi", "lat": 37.3089, "lng": 40.7178 },
+        { "name": "Midyat Konuk Evi", "lat": 37.4284, "lng": 41.3484 },
+        { "name": "Mor Gabriel Manastırı", "lat": 37.4246, "lng": 41.3677 },
+        { "name": "Mardin Ulu Camii", "lat": 37.3132, "lng": 40.7377 },
+        { "name": "Savurkapı Hanı", "lat": 37.3115, "lng": 40.7342 },
+        {
+          "name": "Sakıp Sabancı Mardin Kent Müzesi",
+          "lat": 37.3141,
+          "lng": 40.7335
+        },
+        { "name": "Mardin Evleri", "lat": 37.3116, "lng": 40.735 }
+      ]
+    },
+    {
+      "city_name": "Muğla",
+      "famous_places": [
+        { "name": "Ölüdeniz", "lat": 36.5454, "lng": 29.1154 },
+        { "name": "Fethiye", "lat": 36.6218, "lng": 29.1174 },
+        { "name": "Dalyan", "lat": 36.8345, "lng": 28.644 },
+        { "name": "Bodrum Kalesi", "lat": 37.032, "lng": 27.4305 },
+        { "name": "Marmaris", "lat": 36.8551, "lng": 28.2743 },
+        { "name": "Sedir Adası", "lat": 36.9933, "lng": 28.1997 },
+        { "name": "Saklıkent Kanyonu", "lat": 36.4166, "lng": 29.3652 },
+        { "name": "Knidos Antik Kenti", "lat": 36.6875, "lng": 27.3795 },
+        { "name": "Datça", "lat": 36.7283, "lng": 27.6821 },
+        { "name": "Kayaköy", "lat": 36.5767, "lng": 29.1008 }
+      ]
+    },
+    {
+      "city_name": "Muş",
+      "famous_places": [
+        { "name": "Muş Kalesi", "lat": 38.7254, "lng": 41.4845 },
+        { "name": "Arak Manastırı", "lat": 38.9527, "lng": 41.4149 },
+        { "name": "Malazgirt Kalesi", "lat": 39.1443, "lng": 42.535 },
+        { "name": "Muşet Köprüsü", "lat": 38.7266, "lng": 41.501 },
+        { "name": "Muradiyye Camii", "lat": 38.731, "lng": 41.4918 },
+        { "name": "Mercimekkale", "lat": 38.7481, "lng": 41.4336 },
+        { "name": "Kurtik Dağı", "lat": 38.9051, "lng": 41.5311 },
+        { "name": "Alaaddin Bey Hamamı", "lat": 38.7313, "lng": 41.4907 },
+        { "name": "Çengilli Kilisesi", "lat": 39.1469, "lng": 42.4517 },
+        { "name": "Haçlı Gölü", "lat": 38.8811, "lng": 41.7234 }
+      ]
+    },
+    {
+      "city_name": "Nevşehir",
+      "famous_places": [
+        { "name": "Göreme Açık Hava Müzesi", "lat": 38.6434, "lng": 34.8286 },
+        { "name": "Kapadokya", "lat": 38.6518, "lng": 34.8354 },
+        { "name": "Ürgüp", "lat": 38.6318, "lng": 34.9126 },
+        { "name": "Derinkuyu Yeraltı Şehri", "lat": 38.3749, "lng": 34.7306 },
+        { "name": "Ihlara Vadisi", "lat": 38.2722, "lng": 34.2344 },
+        { "name": "Paşabağı", "lat": 38.6697, "lng": 34.8412 },
+        { "name": "Uçhisar Kalesi", "lat": 38.6205, "lng": 34.8126 },
+        { "name": "Ortahisar Kalesi", "lat": 38.6213, "lng": 34.8873 },
+        { "name": "Zelve Vadisi", "lat": 38.6674, "lng": 34.8529 },
+        { "name": "Çavuşin Köyü", "lat": 38.6675, "lng": 34.8533 }
+      ]
+    },
+    {
+      "city_name": "Niğde",
+      "famous_places": [
+        { "name": "Niğde Kalesi", "lat": 37.9789, "lng": 34.6836 },
+        { "name": "Gümüşler Manastırı", "lat": 37.948, "lng": 34.6858 },
+        { "name": "Tyana Su Kemerleri", "lat": 37.9925, "lng": 34.7373 },
+        { "name": "Aladağlar Milli Parkı", "lat": 37.7551, "lng": 35.1947 },
+        { "name": "Narlıgöl Krater Gölü", "lat": 37.6796, "lng": 34.7565 },
+        { "name": "Niğde Müzesi", "lat": 37.979, "lng": 34.6844 },
+        { "name": "Eski Gümüşler Manastırı", "lat": 37.9481, "lng": 34.6859 },
+        { "name": "Andaval Kilisesi", "lat": 37.9235, "lng": 34.6198 },
+        { "name": "Bor Şehir Hamamı", "lat": 37.8838, "lng": 34.5615 },
+        { "name": "Kuşkayası Anıtı", "lat": 37.959, "lng": 34.6865 }
+      ]
+    },
+    {
+      "city_name": "Ordu",
+      "famous_places": [
+        { "name": "Boztepe", "lat": 40.9875, "lng": 37.8745 },
+        { "name": "Çambaşı Yaylası", "lat": 40.7105, "lng": 37.6877 },
+        { "name": "Ünye Kalesi", "lat": 41.1303, "lng": 37.2879 },
+        { "name": "Perşembe Yaylası", "lat": 40.8522, "lng": 37.6289 },
+        { "name": "Yason Burnu", "lat": 41.0666, "lng": 37.6737 },
+        { "name": "Ohtamış Şelalesi", "lat": 40.8297, "lng": 37.5012 },
+        {
+          "name": "Paşaoğlu Konağı ve Etnografya Müzesi",
+          "lat": 40.9876,
+          "lng": 37.8794
+        },
+        { "name": "Ulugöl Tabiat Parkı", "lat": 40.9504, "lng": 37.3135 },
+        { "name": "Kurul Kalesi", "lat": 41.0155, "lng": 37.8421 },
+        { "name": "Çiseli Şelalesi", "lat": 40.8123, "lng": 37.6988 }
+      ]
+    },
+    {
+      "city_name": "Rize",
+      "famous_places": [
+        { "name": "Ayder Yaylası", "lat": 40.946, "lng": 41.066 },
+        { "name": "Zil Kale", "lat": 40.922, "lng": 41.0572 },
+        {
+          "name": "Kaçkar Dağları Milli Parkı",
+          "lat": 40.8841,
+          "lng": 41.0012
+        },
+        { "name": "Pokut Yaylası", "lat": 40.9637, "lng": 41.0442 },
+        { "name": "Anzer Yaylası", "lat": 40.9592, "lng": 40.8341 },
+        { "name": "Fırtına Deresi", "lat": 40.9026, "lng": 40.9738 },
+        { "name": "Palovit Şelalesi", "lat": 40.9108, "lng": 41.0257 },
+        { "name": "Rize Kalesi", "lat": 41.0243, "lng": 40.5175 },
+        { "name": "Çamlıhemşin", "lat": 40.9135, "lng": 41.0148 },
+        { "name": "İkizdere Termal Kaplıcaları", "lat": 40.858, "lng": 40.7767 }
+      ]
+    },
+    {
+      "city_name": "Sakarya",
+      "famous_places": [
+        { "name": "Sapanca Gölü", "lat": 40.6913, "lng": 30.2667 },
+        { "name": "Acarlar Longozu", "lat": 41.0981, "lng": 30.8093 },
+        { "name": "Taraklı", "lat": 40.396, "lng": 30.4933 },
+        { "name": "Sakarya Müzesi", "lat": 40.7742, "lng": 30.3875 },
+        { "name": "Justinianus Köprüsü", "lat": 40.7592, "lng": 30.3767 },
+        { "name": "Karasu Plajı", "lat": 41.1107, "lng": 30.7102 },
+        {
+          "name": "Poyrazlar Gölü Tabiat Parkı",
+          "lat": 40.8431,
+          "lng": 30.4599
+        },
+        { "name": "Doğançay Şelalesi", "lat": 40.7081, "lng": 30.4133 },
+        { "name": "Seyir Terası", "lat": 40.747, "lng": 30.4034 },
+        { "name": "Geyve Yöresi Bağları", "lat": 40.4909, "lng": 30.2936 }
+      ]
+    },
+    {
+      "city_name": "Samsun",
+      "famous_places": [
+        {
+          "name": "Bandırma Vapuru ve Milli Mücadele Parkı",
+          "lat": 41.2854,
+          "lng": 36.3322
+        },
+        { "name": "Atatürk Anıtı", "lat": 41.285, "lng": 36.335 },
+        { "name": "Amisos Tepesi", "lat": 41.2893, "lng": 36.3347 },
+        {
+          "name": "Kızılırmak Deltası Kuş Cenneti",
+          "lat": 41.6811,
+          "lng": 36.0408
+        },
+        { "name": "Kabaceviz Şelalesi", "lat": 41.1854, "lng": 36.4735 },
+        { "name": "Tekkeköy Mağaraları", "lat": 41.1826, "lng": 36.4007 },
+        {
+          "name": "Samsun Arkeoloji ve Etnografya Müzesi",
+          "lat": 41.2889,
+          "lng": 36.3341
+        },
+        { "name": "Samsun Sahili", "lat": 41.2882, "lng": 36.3362 },
+        { "name": "Göğceli Camii", "lat": 41.3426, "lng": 35.9528 },
+        { "name": "Bafra Asarkale", "lat": 41.5687, "lng": 35.9129 }
+      ]
+    },
+    {
+      "city_name": "Siirt",
+      "famous_places": [
+        { "name": "Tillo Kalesi", "lat": 37.9311, "lng": 41.9316 },
+        { "name": "Veysel Karani Türbesi", "lat": 37.9283, "lng": 41.9342 },
+        { "name": "Botan Vadisi", "lat": 37.9296, "lng": 41.9351 },
+        { "name": "Siirt Ulu Camii", "lat": 37.9276, "lng": 41.9307 },
+        { "name": "İncekaya Kaplıcası", "lat": 37.9297, "lng": 41.939 },
+        { "name": "Delikli Taş", "lat": 37.9279, "lng": 41.9331 },
+        { "name": "Rasıl Hacar", "lat": 37.9309, "lng": 41.9343 },
+        { "name": "Sağlarca Kaplıcası", "lat": 37.929, "lng": 41.9334 },
+        { "name": "İrun Kalesi", "lat": 37.9265, "lng": 41.9318 },
+        { "name": "Billoris Kaplıcası", "lat": 37.9281, "lng": 41.9352 }
+      ]
+    },
+    {
+      "city_name": "Sinop",
+      "famous_places": [
+        { "name": "Sinop Kalesi", "lat": 42.0271, "lng": 35.1517 },
+        { "name": "Hamsilos Koyu", "lat": 42.0274, "lng": 35.1464 },
+        { "name": "İnceburun Feneri", "lat": 42.0277, "lng": 35.1489 },
+        { "name": "Akliman", "lat": 42.0272, "lng": 35.1473 },
+        { "name": "Sinop Cezaevi Müzesi", "lat": 42.0278, "lng": 35.1493 },
+        { "name": "Boyabat Kalesi", "lat": 42.0279, "lng": 35.1457 },
+        {
+          "name": "Erfelek Tatlıca Şelaleleri",
+          "lat": 42.0283,
+          "lng": 35.1481
+        },
+        { "name": "Balatlar Kilisesi", "lat": 42.0276, "lng": 35.1467 },
+        { "name": "İnaltı Mağarası", "lat": 42.0275, "lng": 35.1472 },
+        { "name": "Karakum Plajı", "lat": 42.028, "lng": 35.1469 }
+      ]
+    },
+    {
+      "city_name": "Sivas",
+      "famous_places": [
+        { "name": "Divriği Ulu Camii", "lat": 39.3737, "lng": 38.1138 },
+        { "name": "Gök Medrese", "lat": 39.7397, "lng": 37.0163 },
+        { "name": "Sivas Kongre Binası", "lat": 39.7486, "lng": 37.0155 },
+        { "name": "Çifte Minareli Medrese", "lat": 39.7467, "lng": 37.0169 },
+        { "name": "Kangal Balıklı Kaplıca", "lat": 39.1956, "lng": 37.2531 },
+        { "name": "Şifaiye Medresesi", "lat": 39.7477, "lng": 37.0167 },
+        { "name": "Sivas Kalesi", "lat": 39.7464, "lng": 37.0171 },
+        { "name": "Yıldız Dağı Kayak Merkezi", "lat": 39.2057, "lng": 37.2734 },
+        { "name": "Hafik Gölü", "lat": 39.8728, "lng": 37.3729 },
+        { "name": "Eğri Köprü", "lat": 39.7466, "lng": 37.0164 }
+      ]
+    },
+    {
+      "city_name": "Tekirdağ",
+      "famous_places": [
+        { "name": "Rakoczi Müzesi", "lat": 40.9786, "lng": 27.5084 },
+        { "name": "Şarköy", "lat": 40.6634, "lng": 27.1985 },
+        { "name": "Uçmakdere", "lat": 40.925, "lng": 27.0678 },
+        { "name": "Hora Feneri", "lat": 40.9464, "lng": 27.0704 },
+        {
+          "name": "Tekirdağ Arkeoloji ve Etnografya Müzesi",
+          "lat": 40.9814,
+          "lng": 27.5092
+        },
+        { "name": "Namik Kemal Evi", "lat": 40.9792, "lng": 27.5086 },
+        { "name": "Aşağı Sevindikli Höyüğü", "lat": 40.9831, "lng": 27.5122 },
+        { "name": "Kumbağ", "lat": 40.9391, "lng": 27.1705 },
+        { "name": "Barbaros Bağları", "lat": 40.9623, "lng": 27.2427 },
+        { "name": "Marmara Ereğlisi", "lat": 40.9732, "lng": 27.6175 }
+      ]
+    },
+    {
+      "city_name": "Tokat",
+      "famous_places": [
+        { "name": "Ballıca Mağarası", "lat": 40.4011, "lng": 36.5133 },
+        { "name": "Tokat Kalesi", "lat": 40.3175, "lng": 36.5558 },
+        { "name": "Sulusaray Antik Kenti", "lat": 40.2875, "lng": 36.3964 },
+        { "name": "Niksar Kalesi", "lat": 40.3133, "lng": 36.5652 },
+        { "name": "Atatürk Evi", "lat": 40.3211, "lng": 36.5611 },
+        { "name": "Latifoğlu Konağı", "lat": 40.3147, "lng": 36.5544 },
+        { "name": "Zile Kalesi", "lat": 40.3125, "lng": 36.5572 },
+        { "name": "Almus Barajı", "lat": 40.4075, "lng": 36.5789 },
+        { "name": "Gök Medrese", "lat": 40.3158, "lng": 36.5522 },
+        { "name": "Yağıbasan Medresesi", "lat": 40.3172, "lng": 36.5567 }
+      ]
+    },
+    {
+      "city_name": "Trabzon",
+      "famous_places": [
+        { "name": "Sümela Manastırı", "lat": 40.6836, "lng": 39.6223 },
+        { "name": "Uzungöl", "lat": 40.619, "lng": 40.279 },
+        { "name": "Trabzon Kalesi", "lat": 41.0065, "lng": 39.7265 },
+        { "name": "Atatürk Köşkü", "lat": 41.0016, "lng": 39.7137 },
+        { "name": "Ayasofya Müzesi", "lat": 41.0109, "lng": 39.7217 },
+        { "name": "Boztepe", "lat": 41.0119, "lng": 39.7333 },
+        { "name": "Çal Mağarası", "lat": 40.6822, "lng": 39.6819 },
+        {
+          "name": "Altındere Vadisi Milli Parkı",
+          "lat": 40.6839,
+          "lng": 39.6242
+        },
+        { "name": "Hıdırnebi Yaylası", "lat": 40.8264, "lng": 39.2852 },
+        { "name": "Vazelon Manastırı", "lat": 40.6994, "lng": 39.6286 }
+      ]
+    },
+    {
+      "city_name": "Tunceli",
+      "famous_places": [
+        { "name": "Munzur Vadisi Milli Parkı", "lat": 39.1082, "lng": 39.5689 },
+        { "name": "Munzur Gözeleri", "lat": 39.1341, "lng": 39.5008 },
+        { "name": "Ovacık", "lat": 39.0353, "lng": 39.4425 },
+        { "name": "Pertek Kalesi", "lat": 38.9501, "lng": 39.3297 },
+        { "name": "Pülümür Çayı", "lat": 39.1854, "lng": 39.4448 },
+        { "name": "Mercan Vadisi", "lat": 39.1923, "lng": 39.5409 },
+        { "name": "Mazgirt Kalesi", "lat": 39.0041, "lng": 39.295 },
+        { "name": "Tunceli Müzesi", "lat": 39.1069, "lng": 39.5406 },
+        { "name": "Kara Haydar Türbesi", "lat": 39.1005, "lng": 39.4923 },
+        { "name": "Halbori Gözeleri", "lat": 39.1896, "lng": 39.5156 }
+      ]
+    },
+    {
+      "city_name": "Şanlıurfa",
+      "famous_places": [
+        { "name": "Göbeklitepe", "lat": 37.2236, "lng": 38.9228 },
+        { "name": "Balıklıgöl", "lat": 37.1591, "lng": 38.7968 },
+        { "name": "Harran Evleri", "lat": 36.8617, "lng": 39.0289 },
+        {
+          "name": "Şanlıurfa Arkeoloji Müzesi",
+          "lat": 37.1555,
+          "lng": 38.7938
+        },
+        { "name": "Halfeti", "lat": 37.2475, "lng": 37.8643 },
+        { "name": "Bazda Mağaraları", "lat": 37.098, "lng": 39.1126 },
+        { "name": "Soğmatar Antik Kenti", "lat": 37.1833, "lng": 38.9167 },
+        { "name": "Eyüp Peygamber Makamı", "lat": 37.1783, "lng": 38.7928 },
+        { "name": "Nemrut Tahtı", "lat": 37.9806, "lng": 38.7422 },
+        { "name": "Sultantepe Höyüğü", "lat": 37.1561, "lng": 38.7983 }
+      ]
+    },
+    {
+      "city_name": "Uşak",
+      "famous_places": [
+        { "name": "Ulubey Kanyonu", "lat": 38.3683, "lng": 29.4247 },
+        { "name": "Blaundus Antik Kenti", "lat": 38.3421, "lng": 29.4293 },
+        { "name": "Clandıras Köprüsü", "lat": 38.388, "lng": 29.4496 },
+        { "name": "Uşak Arkeoloji Müzesi", "lat": 38.6805, "lng": 29.4082 },
+        {
+          "name": "Atatürk ve Etnografya Müzesi",
+          "lat": 38.6837,
+          "lng": 29.409
+        },
+        { "name": "Hasköy Kaplıcaları", "lat": 38.5397, "lng": 29.5041 },
+        { "name": "Taşyaran Vadisi", "lat": 38.5069, "lng": 29.4528 },
+        { "name": "Cilandiras Şelalesi", "lat": 38.3649, "lng": 29.4371 },
+        { "name": "Beylerhanı Kervansarayı", "lat": 38.6787, "lng": 29.4049 },
+        { "name": "Burmalı Camii", "lat": 38.6832, "lng": 29.4073 }
+      ]
+    },
+    {
+      "city_name": "Van",
+      "famous_places": [
+        { "name": "Van Gölü", "lat": 38.627, "lng": 42.9971 },
+        { "name": "Akdamar Adası ve Kilisesi", "lat": 38.3044, "lng": 43.0059 },
+        { "name": "Van Kalesi", "lat": 38.5026, "lng": 43.3747 },
+        { "name": "Muradiye Şelalesi", "lat": 38.9869, "lng": 43.4075 },
+        { "name": "Hoşap Kalesi", "lat": 38.2987, "lng": 43.3833 },
+        { "name": "Çavuştepe Kalesi", "lat": 38.2861, "lng": 43.3922 },
+        { "name": "Van Kedisi Evi", "lat": 38.5048, "lng": 43.3671 },
+        { "name": "Erçek Gölü", "lat": 38.6056, "lng": 43.1997 },
+        { "name": "Adır Adası", "lat": 38.3806, "lng": 43.1049 },
+        { "name": "Van Müzesi", "lat": 38.4979, "lng": 43.3805 }
+      ]
+    },
+    {
+      "city_name": "Yozgat",
+      "famous_places": [
+        {
+          "name": "Yozgat Çamlığı Milli Parkı",
+          "lat": 39.8143,
+          "lng": 34.8145
+        },
+        { "name": "Sarıkaya Roma Hamamı", "lat": 39.4063, "lng": 35.3657 },
+        { "name": "Kazankaya Kanyonu", "lat": 39.5067, "lng": 35.0918 },
+        { "name": "Basilica Therma", "lat": 39.4075, "lng": 35.3668 },
+        { "name": "Kerkenes Harabeleri", "lat": 39.5417, "lng": 35.1314 },
+        { "name": "Çapanoğlu Büyük Camii", "lat": 39.8183, "lng": 34.8151 },
+        { "name": "Sorgun Kaplıcaları", "lat": 39.8104, "lng": 34.8162 },
+        { "name": "Saraykent Kaplıcaları", "lat": 39.7333, "lng": 34.9964 },
+        { "name": "Akdağmadeni Ormanları", "lat": 39.6516, "lng": 35.5121 },
+        { "name": "Nizamoğlu Konağı", "lat": 39.8197, "lng": 34.8153 }
+      ]
+    },
+    {
+      "city_name": "Zonguldak",
+      "famous_places": [
+        { "name": "Gökgöl Mağarası", "lat": 41.4422, "lng": 31.7741 },
+        { "name": "Filyos Kalesi", "lat": 41.5694, "lng": 31.8961 },
+        {
+          "name": "Çitdere Tabiat Koruma Alanı",
+          "lat": 41.4765,
+          "lng": 31.9909
+        },
+        { "name": "Cehennemağzı Mağaraları", "lat": 41.4494, "lng": 31.7819 },
+        { "name": "Filyos Plajı", "lat": 41.5701, "lng": 31.8949 },
+        { "name": "Kozlu Sahili", "lat": 41.4513, "lng": 31.7775 },
+        { "name": "Ereğli Müzesi", "lat": 41.2669, "lng": 31.4181 },
+        { "name": "Harmankaya Şelaleleri", "lat": 41.4639, "lng": 31.7435 },
+        { "name": "Zonguldak Maden Müzesi", "lat": 41.4517, "lng": 31.7835 },
+        { "name": "Varagel Tüneli", "lat": 41.4509, "lng": 31.7833 }
+      ]
+    },
+    {
+      "city_name": "Aksaray",
+      "famous_places": [
+        { "name": "Ihlara Vadisi", "lat": 38.2509, "lng": 34.2876 },
+        { "name": "Selime Katedrali", "lat": 38.2697, "lng": 34.2639 },
+        { "name": "Aşıklı Höyük", "lat": 38.4033, "lng": 34.4133 },
+        { "name": "Saratlı Yeraltı Şehri", "lat": 38.3783, "lng": 34.4056 },
+        { "name": "Nora Antik Kenti", "lat": 38.2094, "lng": 34.4989 },
+        { "name": "Eğri Minare", "lat": 38.3799, "lng": 34.0372 },
+        { "name": "Zinciriye Medresesi", "lat": 38.3729, "lng": 34.0342 },
+        { "name": "Kültür Parkı", "lat": 38.3801, "lng": 34.0413 },
+        { "name": "Manastır Vadisi", "lat": 38.4047, "lng": 34.4071 },
+        { "name": "Acemhöyük", "lat": 38.3727, "lng": 34.0786 }
+      ]
+    },
+    {
+      "city_name": "Bayburt",
+      "famous_places": [
+        { "name": "Bayburt Kalesi", "lat": 40.2581, "lng": 40.2283 },
+        { "name": "Baksı Müzesi", "lat": 40.1097, "lng": 40.0106 },
+        { "name": "Çimağıl Mağarası", "lat": 40.1989, "lng": 39.9142 },
+        { "name": "Helva Köyü Buz Mağarası", "lat": 40.1735, "lng": 40.1263 },
+        { "name": "Kop Dağı Kayak Merkezi", "lat": 40.36, "lng": 39.9517 },
+        { "name": "Sırakayalar Şelalesi", "lat": 40.2916, "lng": 40.1347 },
+        { "name": "Aydıntepe Yeraltı Şehri", "lat": 40.2394, "lng": 40.2118 },
+        { "name": "Çoruh Nehri", "lat": 40.2822, "lng": 40.2224 },
+        { "name": "Yakutiye Camii", "lat": 40.2591, "lng": 40.2285 },
+        { "name": "Dede Korkut Kümbeti", "lat": 40.2592, "lng": 40.2278 }
+      ]
+    },
+    {
+      "city_name": "Karaman",
+      "famous_places": [
+        { "name": "Karaman Kalesi", "lat": 37.1813, "lng": 33.2255 },
+        { "name": "Binbir Kilise", "lat": 37.2898, "lng": 33.2783 },
+        { "name": "Madenşehri Ören Yeri", "lat": 37.1867, "lng": 33.2327 },
+        { "name": "Tartan Konağı", "lat": 37.1811, "lng": 33.2155 },
+        { "name": "Taşkale Tahıl Ambarları", "lat": 37.3304, "lng": 33.2658 },
+        { "name": "Ermenek Barajı", "lat": 36.6265, "lng": 32.8845 },
+        { "name": "Zeyve Pazarı", "lat": 37.1812, "lng": 33.2119 },
+        { "name": "İncesu Mağarası", "lat": 37.1002, "lng": 33.2984 },
+        { "name": "Manazan Mağaraları", "lat": 37.3462, "lng": 33.2137 },
+        { "name": "Aktekke Camii", "lat": 37.1831, "lng": 33.2259 }
+      ]
+    },
+    {
+      "city_name": "Kırıkkale",
+      "famous_places": [
+        { "name": "Silah Sanayi Müzesi", "lat": 39.8416, "lng": 33.5155 },
+        {
+          "name": "Hasandede Camii ve Türbesi",
+          "lat": 39.8492,
+          "lng": 33.5587
+        },
+        { "name": "Çeşnigir Köprüsü", "lat": 39.8915, "lng": 33.5231 },
+        { "name": "Ceritkale Kaya Mezarları", "lat": 39.8079, "lng": 33.5225 },
+        { "name": "Ballı Camii", "lat": 39.8754, "lng": 33.5358 },
+        { "name": "Sulu Mağara", "lat": 39.8523, "lng": 33.5198 },
+        { "name": "Karaahmetli Tabiat Parkı", "lat": 39.8561, "lng": 33.5493 },
+        { "name": "Tokuşlar Höyüğü", "lat": 39.8234, "lng": 33.5231 },
+        { "name": "Koçubaba Türbesi", "lat": 39.8856, "lng": 33.5204 },
+        { "name": "Kızılırmak Nehri", "lat": 39.8222, "lng": 33.5378 }
+      ]
+    },
+    {
+      "city_name": "Batman",
+      "famous_places": [
+        { "name": "Hasankeyf", "lat": 37.7153, "lng": 41.4117 },
+        { "name": "Malabadi Köprüsü", "lat": 37.9236, "lng": 41.3014 },
+        { "name": "Memikan Köprüsü", "lat": 37.8134, "lng": 41.3101 },
+        { "name": "Mor Kiryakus Manastırı", "lat": 37.7717, "lng": 41.3023 },
+        { "name": "Hasankeyf Kalesi", "lat": 37.7153, "lng": 41.4117 },
+        { "name": "On Kemerli Köprü", "lat": 37.8219, "lng": 41.2984 },
+        { "name": "Zeynel Bey Türbesi", "lat": 37.7172, "lng": 41.4138 },
+        { "name": "Hasankeyf Mağaraları", "lat": 37.7153, "lng": 41.4117 },
+        { "name": "Batman Müzesi", "lat": 37.8839, "lng": 41.1385 },
+        { "name": "Raman Dağı", "lat": 37.8671, "lng": 41.2208 }
+      ]
+    },
+    {
+      "city_name": "Şırnak",
+      "famous_places": [
+        { "name": "Cudi Dağı", "lat": 37.3666, "lng": 42.4832 },
+        { "name": "Kasrik Boğazı", "lat": 37.3221, "lng": 42.2874 },
+        { "name": "Finik Ören Yeri ve Kalesi", "lat": 37.4342, "lng": 42.4257 },
+        { "name": "Kırmızı Medrese", "lat": 37.3346, "lng": 42.2956 },
+        { "name": "Hz. Nuh Türbesi", "lat": 37.4188, "lng": 42.4917 },
+        { "name": "Bazebde Antik Kenti", "lat": 37.4333, "lng": 42.2891 },
+        { "name": "Şah Ören Camii", "lat": 37.3267, "lng": 42.2774 },
+        { "name": "Belkısana Kaplıcaları", "lat": 37.3325, "lng": 42.4132 },
+        { "name": "Mezra Manastırı", "lat": 37.3251, "lng": 42.2839 },
+        { "name": "İdil Ulu Camii", "lat": 37.3309, "lng": 42.2724 }
+      ]
+    },
+    {
+      "city_name": "Bartın",
+      "famous_places": [
+        { "name": "Amasra Kalesi", "lat": 41.7506, "lng": 32.386 },
+        { "name": "İnkumu Plajı", "lat": 41.6589, "lng": 32.3393 },
+        { "name": "Kuşkayası Yol Anıtı", "lat": 41.7399, "lng": 32.3763 },
+        { "name": "Amasra Müzesi", "lat": 41.7456, "lng": 32.3873 },
+        { "name": "Göldere Şelalesi", "lat": 41.6981, "lng": 32.3712 },
+        { "name": "Çekiciler Çarşısı", "lat": 41.7433, "lng": 32.3879 },
+        { "name": "Ulukaya Şelalesi", "lat": 41.6109, "lng": 32.3415 },
+        { "name": "Kemerdere Köprüsü", "lat": 41.7389, "lng": 32.3682 },
+        { "name": "Amasra Tavşan Adası", "lat": 41.745, "lng": 32.3871 },
+        { "name": "Mugada Plajı", "lat": 41.6667, "lng": 32.3439 }
+      ]
+    },
+    {
+      "city_name": "Ardahan",
+      "famous_places": [
+        { "name": "Şeytan Kalesi", "lat": 41.2165, "lng": 42.6211 },
+        { "name": "Çıldır Gölü", "lat": 41.0281, "lng": 43.0802 },
+        { "name": "Yalnızçam Kayak Merkezi", "lat": 41.0997, "lng": 42.6998 },
+        { "name": "Akçakale Ada Şehri", "lat": 41.0447, "lng": 43.1276 },
+        { "name": "Bülbülan Yaylası", "lat": 41.1451, "lng": 42.7251 },
+        { "name": "Ardahan Kalesi", "lat": 41.1094, "lng": 42.7022 },
+        { "name": "Atatürk Silueti", "lat": 41.1284, "lng": 42.7821 },
+        { "name": "Kinzi Kalesi", "lat": 41.0764, "lng": 42.6584 },
+        { "name": "Posof Yaylası", "lat": 41.1758, "lng": 42.7431 },
+        { "name": "Altaş Şelalesi", "lat": 41.1872, "lng": 42.7174 }
+      ]
+    },
+    {
+      "city_name": "Iğdır",
+      "famous_places": [
+        { "name": "Ağrı Dağı", "lat": 39.7024, "lng": 44.2964 },
+        { "name": "Meteor Çukuru", "lat": 39.6232, "lng": 44.1989 },
+        {
+          "name": "Iğdır Arkeoloji ve Etnografya Müzesi",
+          "lat": 39.9183,
+          "lng": 44.0439
+        },
+        { "name": "Harmandöven Kervansarayı", "lat": 39.7117, "lng": 44.2344 },
+        { "name": "Tuzluca Tuz Mağaraları", "lat": 39.8256, "lng": 44.1412 },
+        { "name": "Zübeyde Hanım Bulvarı", "lat": 39.9236, "lng": 44.0492 },
+        { "name": "Sürmeli Kalesi", "lat": 39.8152, "lng": 44.0427 },
+        { "name": "Karakale Harabeleri", "lat": 39.7432, "lng": 44.1072 },
+        { "name": "Aras Nehri", "lat": 39.7503, "lng": 44.1435 },
+        { "name": "Pamuk Dağı", "lat": 39.7745, "lng": 44.1124 }
+      ]
+    },
+    {
+      "city_name": "Yalova",
+      "famous_places": [
+        { "name": "Yalova Termal Kaplıcaları", "lat": 40.6023, "lng": 29.1195 },
+        { "name": "Sudüşen Şelalesi", "lat": 40.5752, "lng": 29.1648 },
+        { "name": "Karaca Arboretumu", "lat": 40.6248, "lng": 29.1991 },
+        { "name": "Yürüyen Köşk", "lat": 40.6511, "lng": 29.2884 },
+        { "name": "Delmece Yaylası", "lat": 40.6138, "lng": 29.2397 },
+        { "name": "Yalova Kent Ormanı", "lat": 40.6104, "lng": 29.2623 },
+        { "name": "Erikli Yaylası", "lat": 40.5983, "lng": 29.2214 },
+        { "name": "Armutlu Kaplıcaları", "lat": 40.5262, "lng": 29.0155 },
+        { "name": "Yalova Sahil Parkı", "lat": 40.6589, "lng": 29.2706 },
+        { "name": "Hersek Lagünü", "lat": 40.6161, "lng": 29.2406 }
+      ]
+    },
+    {
+      "city_name": "Karabük",
+      "famous_places": [
+        { "name": "Safranbolu", "lat": 41.2506, "lng": 32.6822 },
+        { "name": "Yenice Ormanları", "lat": 41.2264, "lng": 32.5571 },
+        { "name": "Bulak Mencilis Mağarası", "lat": 41.2275, "lng": 32.6714 },
+        { "name": "Kristal Teras", "lat": 41.2369, "lng": 32.7059 },
+        {
+          "name": "Safranbolu Kent Tarihi Müzesi",
+          "lat": 41.2458,
+          "lng": 32.6825
+        },
+        { "name": "Tokatlı Kanyonu", "lat": 41.2351, "lng": 32.6914 },
+        { "name": "Hıdırlık Tepesi", "lat": 41.2435, "lng": 32.6891 },
+        { "name": "Eflani Gölleri", "lat": 41.3015, "lng": 32.8405 },
+        { "name": "Hadrianapolis Antik Kenti", "lat": 41.1918, "lng": 32.6754 },
+        { "name": "Uluyayla", "lat": 41.2647, "lng": 32.7802 }
+      ]
+    },
+    {
+      "city_name": "Kilis",
+      "famous_places": [
+        { "name": "Oylum Höyük", "lat": 37.1075, "lng": 37.2411 },
+        { "name": "Ravanda Kalesi", "lat": 37.1518, "lng": 37.2902 },
+        { "name": "Şeyh Mansur Türbesi", "lat": 37.1076, "lng": 37.2344 },
+        { "name": "Kilis Ulu Camii", "lat": 37.1069, "lng": 37.2345 },
+        { "name": "Salih Ağa Kasteli", "lat": 37.1071, "lng": 37.2378 },
+        { "name": "Kürt Kalesi", "lat": 37.1251, "lng": 37.2392 },
+        { "name": "Neşet Efendi Konağı", "lat": 37.1123, "lng": 37.2294 },
+        { "name": "Söğütlüdere Mesire Alanı", "lat": 37.1157, "lng": 37.2384 },
+        { "name": "Elbeyli Höyüğü", "lat": 37.1362, "lng": 37.2409 },
+        { "name": "İkiz Mağara", "lat": 37.1308, "lng": 37.2352 }
+      ]
+    },
+    {
+      "city_name": "Osmaniye",
+      "famous_places": [
+        {
+          "name": "Karatepe-Aslantaş Milli Parkı",
+          "lat": 37.1578,
+          "lng": 36.2928
+        },
+        { "name": "Toprakkale Kalesi", "lat": 37.0751, "lng": 36.1815 },
+        { "name": "Kastabala Antik Kenti", "lat": 37.0809, "lng": 36.1765 },
+        { "name": "Ala Kapı", "lat": 37.0847, "lng": 36.1873 },
+        { "name": "Osmaniye Kent Müzesi", "lat": 37.0708, "lng": 36.1794 },
+        { "name": "Aslantaş Baraj Gölü", "lat": 37.1431, "lng": 36.2902 },
+        { "name": "Kadirli Ala Camii", "lat": 37.3809, "lng": 36.0957 },
+        { "name": "Haruniye Kaplıcaları", "lat": 37.2734, "lng": 36.2261 },
+        { "name": "Hemite Kalesi", "lat": 37.3811, "lng": 36.0852 },
+        { "name": "Savrun Çayı", "lat": 37.3894, "lng": 36.1047 }
+      ]
+    },
+    {
+      "city_name": "Düzce",
+      "famous_places": [
+        { "name": "Güzeldere Şelalesi", "lat": 40.7761, "lng": 31.1171 },
+        { "name": "Samandere Şelalesi", "lat": 40.7473, "lng": 31.1947 },
+        { "name": "Aydınpınar Şelalesi", "lat": 40.7874, "lng": 31.1455 },
+        { "name": "Akçakoca Ceneviz Kalesi", "lat": 41.0869, "lng": 31.0924 },
+        { "name": "Efteni Gölü", "lat": 40.7703, "lng": 30.9886 },
+        { "name": "Kurugöl Kanyonu", "lat": 41.0248, "lng": 30.8894 },
+        { "name": "Konuralp Müzesi", "lat": 40.8549, "lng": 31.1597 },
+        { "name": "Pürenli Yaylası", "lat": 40.8181, "lng": 30.8316 },
+        { "name": "Sinekli Yaylası", "lat": 40.8352, "lng": 30.8327 },
+        { "name": "Cumayanı Mesire Alanı", "lat": 40.8243, "lng": 31.1652 }
+      ]
+    }
+  ]
+}

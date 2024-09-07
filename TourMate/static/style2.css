@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+#map {
+  height: calc(100vh - 100px); /* Footer için yeterli alan bırak */
+}
+
+footer {
+  background-color: #4a4a4a; /* Koyu gri arka plan */
+  padding: 20px; /* Daha geniş padding */
+  text-align: center; /* İçerikleri ortala */
+  color: white; /* Yazılar beyaz */
+  font-size: 14px;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  box-sizing: border-box; /* Padding dahil tüm genişliği kapsar */
+  overflow: hidden; /* Yatay taşmayı gizle */
+}
+
+#places-list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+#places-list li {
+  display: none; /* Hide all items initially */
+  min-width: 150px;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+#places-list-container {
+  overflow: hidden;
+  position: relative;
+  max-width: 100%; /* Tüm genişliği kullan */
+}
+
+#places-list a {
+  color: #ccc; /* Link rengi */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#places-list a:hover {
+  color: rgb(0, 100, 146); /* Hover durumunda renk değiştir */
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.slider-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.slider-button.left {
+  left: 0;
+}
+
+.slider-button.right {
+  right: 0;
+}
+
+.slider-button:disabled {
+  visibility: hidden;
+}

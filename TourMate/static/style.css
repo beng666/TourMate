@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.left-panel {
+  width: 20%;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Logoyu üstte, mikrofonu altta tutmak için */
+  padding: 20px;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover; /* Logonun dairesel görünmesini sağlar */
+}
+
+.logo-title {
+  color: white; /* Yazı rengi beyaz */
+  font-size: 35px; /* Yazı boyutu */
+  margin-top: 10px; /* Logodan sonra biraz boşluk */
+  text-align: center; /* Yazıyı ortalar */
+  position: relative; /* Pozisyonu relative yaparak logoya göre konumlandırma */
+  top: -140px; /* Başlığı logonun biraz altına çeker */
+}
+
+.left-panel .mic-button {
+  width: 80px;
+  height: 80px;
+  background-color: #4a4a4a;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  position: relative;
+  margin-bottom: 20px; /* Mikrofonu biraz yukarıda tutmak için boşluk */
+}
+
+/* Dinleme sırasında büyüme ve küçülme animasyonu */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Dinleme sırasında butona uygulanacak animasyon */
+.listening {
+  animation: pulse 1s infinite;
+}
+
+.right-panel {
+  width: 80%;
+  background-color: #f0f0f5; /* Hafif pastel bir gri tonu */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px; /* Köşelere yuvarlaklık ekleyelim */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti ekleyelim */
+}
+
+.header {
+  background-color: #444; /* Daha koyu ve zarif bir renk */
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.chat-box {
+  flex-grow: 1;
+  background-color: #e0e4eb; /* Daha açık bir gri tonuyla chat kutusunu renklendirelim */
+  padding: 20px;
+  overflow-y: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-box .user-input,
+.chat-box .bot-response {
+  max-width: 70%;
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin: 10px;
+  word-wrap: break-word;
+}
+
+/* Kullanıcı mesajı için stil */
+.chat-box .user-input {
+  background-color: #ffffff;
+  color: black;
+  align-self: flex-end;
+  border-bottom-right-radius: 0;
+}
+
+/* Bot yanıtı için stil */
+.chat-box .bot-response {
+  background-color: #4a4a4a;
+
+  color: white;
+  align-self: flex-start;
+  border-bottom-left-radius: 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.input-area input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.input-area button {
+  background-color: #4a4a4a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-area button:hover {
+  background-color: #333;
+}
+/* Burada stilinizi tanımlayabilirsiniz */
+.feedback-buttons-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.feedback-buttons-container button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.feedback-buttons-container .like-button {
+  color: green;
+}
+
+.feedback-buttons-container .dislike-button {
+  color: red;
+}
+.chat-box .bot-response a {
+  color: white; /* Link rengi beyaz */
+  text-decoration: none; /* Altı çizgiyi kaldır */
+}
+
+.chat-box .bot-response a:hover {
+  color: #ccc; /* Hover sırasında açık gri renk */
+  text-decoration: underline; /* Hover sırasında altı çizgiyi göster */
+}
