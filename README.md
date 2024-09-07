@@ -63,6 +63,7 @@ Gerekli Python kütüphanelerini yüklemek için bir virtualenv oluşturup ardı
    
    
 Windows için:
+
    ```bash
    set T3AI_API_KEY=YOUR_T3AI_API_KEY
    set GOOGLE_GEOCODE_API_KEY=YOUR_GOOGLE_GEOCODE_API_KEY
@@ -77,6 +78,7 @@ Flask uygulamanızı başlatın:
 
 5. Uygulamayı Tarayıcıda Açın:
 Uygulama çalıştığında, tarayıcınızdan aşağıdaki URL'yi açabilirsiniz:
+
     ```bash
 http://127.0.0.1:5000
 
