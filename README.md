@@ -27,5 +27,32 @@ TourMate, sesli komutlar ve GPS verileri kullanarak turistlere kişiselleştiril
 
 ![WhatsApp Image 2024-09-07 at 11 23 57 (1)](https://github.com/user-attachments/assets/439a142d-30ef-42f7-bb89-c5cc1dace26a)
 
+## Uygulamayı Lokalde Çalıştırma
+
+Bu adımlar, Flask uygulamanızı lokal ortamda nasıl çalıştıracağınızı açıklar.
+
+### Gereksinimler
+
+- Python 3.x
+- Flask
+- requests
+- Google Geocoding API Key (isteğe bağlı, coğrafi sorgular için)
+
+### Kurulum Adımları
+
+1. **Depoyu Klonlayın:**
+
+   ```bash
+   git clone https://github.com/kullanıcı_adı/proje_adı.git
+   cd proje_adı
+
+1. **Gerekli Kütüphaneleri Yükleyin:**
+Gerekli Python kütüphanelerini yüklemek için bir virtualenv oluşturup ardından bağımlılıkları yükleyin:
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Windows kullanıyorsanız: venv\Scripts\activate
+   pip install -r requirements.txt
+
 
 
