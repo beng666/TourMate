@@ -1,85 +1,72 @@
 # TourMate Chatbot
 
-TourMate, sesli komutlar ve GPS verileri kullanarak turistlere kişiselleştirilmiş rota önerileri sunan yenilikçi bir chatbot uygulamasıdır. Bu uygulama, turistlerin anlık bilgi ihtiyaçlarını karşılamak ve seyahat deneyimlerini zenginleştirmek amacıyla tasarlanmıştır.
+TourMate is an innovative chatbot application that uses voice commands and GPS data to provide tourists with personalized route recommendations. It is designed to meet tourists’ instant information needs and enrich their travel experiences.
 
-## Özellikler
+## Features
 
-1. **Sesli Komut Algılama**: Kullanıcılar tarafından verilen sesli komutlar doğrultusunda etkileşim sağlar.
-2. **GPS Bağlantılı Rota Önerileri**: Kullanıcıların mevcut konumlarına bağlı olarak turistik yer önerilerinde bulunur.
-3. **Dinamik Rota Planlama**: GPS verilerini kullanarak kullanıcının ilgisine uygun dinamik rotalar oluşturur.
-4. **Anlık Bilgi Sağlama**: Kullanıcıların sorularına anında, doğru ve güncel bilgilerle yanıt verir.
+1. Voice Command Recognition – Understands and responds to user voice inputs.
+2. GPS-Based Route Suggestions – Recommends tourist spots based on the user’s current location.
+3. Dynamic Route Planning – Creates personalized routes using real-time GPS data.
+4. Instant Information – Provides accurate and up-to-date answers to user queries.
 
 ## Kullanılan Teknolojiler
 
-1. **T3 AI Yapay Zeka Modeli**: T3 AI tarafından geliştirilen yapay zeka altyapısını kullanır.
-2. **Google Geocoding API**: Kullanıcıların konum bilgilerini doğru bir şekilde işlemek için kullanılır.
-3. **Flask Framework**: Sunucu tarafı uygulama geliştirmede kullanılır.
-4. **SpeechRecognition Kütüphanesi**: Kullanıcıların sesli komutlarını algılar ve işleyerek yanıt verir.
-5. **OpenWeather API**: Hava durumu bilgilerini kullanıcıya sağlamak için kullanılır.
+1. T3 AI Model – AI infrastructure provided by T3 AI.
+2. Google Geocoding API – Processes and interprets geolocation data.
+3. Flask Framework – Backend web application framework.
+4. SpeechRecognition Library – Recognizes and processes voice commands.
+5. OpenWeather API – Provides real-time weather data.
 
-## Takım Adı: Takım ID
+## Team
 - 👤 Bengisu ATLI
 - 👤 Deniz TAŞ
 
-## Uygulamadan Ekran Görüntüleri
+## UScreenshots
 
 ![WhatsApp Image 2024-09-07 at 11 23 57](https://github.com/user-attachments/assets/88420906-5f16-42f3-9512-3e1bbf1fe02f)
 
 ![WhatsApp Image 2024-09-07 at 11 23 57 (1)](https://github.com/user-attachments/assets/439a142d-30ef-42f7-bb89-c5cc1dace26a)
 
-## Uygulamayı Lokalde Çalıştırma
+### Installation & Setup
 
-Bu adımlar, Flask uygulamanızı lokal ortamda nasıl çalıştıracağınızı açıklar.
-
-### Gereksinimler
-
-- Python 3.x
-- Flask
-- requests
-- Google Geocoding API Key (isteğe bağlı, coğrafi sorgular için)
-
-### Kurulum Adımları
-
-1. **Depoyu Klonlayın:**
+Clone the repository:
 
    ```bash
-   git clone https://github.com/kullanıcı_adı/proje_adı.git
-   cd proje_adı
+   git clone https://github.com/bengssy/TourMate.git
+   cd TourMate
+```
 
-2. **Gerekli Kütüphaneleri Yükleyin:**
-Gerekli Python kütüphanelerini yüklemek için bir virtualenv oluşturup ardından bağımlılıkları yükleyin:
+Create and activate virtual environment:
 
    ```bash
    python -m venv venv
-   source venv/bin/activate  # Windows kullanıyorsanız: venv\Scripts\activate
-   pip install -r requirements.txt
 
-3. **Ortam Değişkenlerini Ayarlayın:**
- T3 AI API anahtarınızı ve Google Geocoding API anahtarınızı ortam değişkeni olarak ayarlayın:
+   # Windows
+   .\venv\Scripts\activate
+   # macOS/Linux
+   source venv/bin/activate
+```
 
-   ```bash
-   export T3AI_API_KEY='YOUR_T3AI_API_KEY'
-   export GOOGLE_GEOCODE_API_KEY='YOUR_GOOGLE_GEOCODE_API_KEY'
-   
-   
-Windows için:
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-   ```bash
-   set T3AI_API_KEY='YOUR_T3AI_API_KEY'
-   set GOOGLE_GEOCODE_API_KEY='YOUR_GOOGLE_GEOCODE_API_KEY'
+Set environment variables (create a .env file or export manually):
 
+```bash
+T3AI_API_KEY=YOUR_T3AI_API_KEY
+GOOGLE_GEOCODE_API_KEY=YOUR_GOOGLE_GEOCODE_API_KEY
+```
 
-4. **Uygulamayı Çalıştırın:**
-Flask uygulamanızı başlatın:
+Run the application:
 
-   ```bash
-    python app.py
+```bash
+python app.py
+```
 
+📜 License
 
-5. Uygulamayı Tarayıcıda Açın:
-Uygulama çalıştığında, tarayıcınızdan aşağıdaki URL'yi açabilirsiniz:
-
-    ```bash
-http://127.0.0.1:5000
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 
